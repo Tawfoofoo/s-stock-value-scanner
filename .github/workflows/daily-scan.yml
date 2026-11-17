@@ -64,41 +64,60 @@ jobs:
             exit 1
           fi
 
-
       - name: Commit scan results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          
-          git add -A -- data/latest_scan.csv data/scan_state.txt
-          git add -f data/scan_errors.csv 2>/dev/null || true
-
           if [ ! -f data/latest_scan.csv ]; then
-            echo "ERROR: No successful stock valuations"
+            echo "ERROR: No scan results"
             exit 1
           fi
 
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-            exit 0
+          mkdir -p /tmp/stock-scan-results
+          cp data/latest_scan.csv /tmp/stock-scan-results/
+          cp data/scan_state.txt /tmp/stock-scan-results/
+          if [ -f data/scan_errors.csv ]; then
+            cp data/scan_errors.csv /tmp/stock-scan-results/
           fi
 
-          git commit -m "Update automated stock scan"
-
           for attempt in 1 2 3 4 5; do
+            echo "Push attempt $attempt"
+
             git fetch origin main
-            if git rebase -X theirs origin/main && git push origin HEAD:main; then
+            git reset --hard origin/main
+
+            mkdir -p data
+            cp /tmp/stock-scan-results/latest_scan.csv data/
+            cp /tmp/stock-scan-results/scan_state.txt data/
+
+            if [ -f /tmp/stock-scan-results/scan_errors.csv ]; then
+              cp /tmp/stock-scan-results/scan_errors.csv data/
+            else
+              rm -f data/scan_errors.csv
+            fi
+
+            git add -A -- data/latest_scan.csv data/scan_state.txt
+            git add -f data/scan_errors.csv 2>/dev/null || true
+
+            if git diff --cached --quiet; then
+              echo "No changes to commit"
+              exit 0
+            fi
+
+            git commit -m "Update automated stock scan"
+
+            if git push origin HEAD:main; then
               echo "Successfully pushed scan results"
               exit 0
             fi
-            git rebase --abort 2>/dev/null || true
+
             sleep 5
           done
 
           echo "Failed to push scan results"
           exit 1
+
 
       - name: Send LINE alert
         if: success()
