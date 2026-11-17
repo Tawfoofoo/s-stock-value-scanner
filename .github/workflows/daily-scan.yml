@@ -37,6 +37,8 @@ jobs:
           SCAN_DELAY: '0.5'
         run: |
           echo "0" > data/scan_state.txt
+          rm -f data/latest_scan.csv
+          rm -f data/scan_errors.csv
 
           completed=false
 
