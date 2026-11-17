@@ -53,10 +53,24 @@ def evaluate(symbol, g, tg, r):
     shares = number(info.get('sharesOutstanding'))
     if shares is None:
         shares = number(yf.Ticker(symbol).fast_info.get('shares'))
-    cash = number(info.get('totalCash'))
+        cash = number(info.get('totalCash'))
     debt = number(info.get('totalDebt'))
     if cash is None or debt is None:
-        raise ValueError(f'Missing cash or debt: cash={cash}, debt={debt}')
+        bs = yf.Ticker(symbol).balance_sheet
+        if bs is not None and not bs.empty:
+            def bs_value(names):
+                for name in names:
+                    if name in bs.index:
+                        vals = pd.to_numeric(bs.loc[name], errors='coerce').dropna()
+                        if not vals.empty:
+                            return number(vals.iloc[0])
+                return None
+            if cash is None:
+                cash = bs_value(['Cash Cash Equivalents And Short Term Investments', 'Cash And Cash Equivalents'])
+            if debt is None:
+                debt = bs_value(['Total Debt'])
+    if cash is None or debt is None:
+        raise ValueError(f'Missing balance sheet data: cash={cash}, debt={debt}')
     roe = number(info.get('returnOnEquity'))
     de_pct = number(info.get('debtToEquity'))
     if not price or not fcf or fcf <= 0 or not shares or shares <= 0:
