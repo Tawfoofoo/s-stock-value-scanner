@@ -60,11 +60,12 @@ jobs:
           echo "Failed to push scan results"
           exit 1
 
-
       - name: Send LINE alert
         if: success()
         env:
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
-          LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
+          LINE_TO_USER_ID: ${{ secrets.LINE_USER_ID }}
+          LINE_MIN_MOS: '15'
         run: python line_alert.py
+
 
