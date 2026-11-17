@@ -55,6 +55,8 @@ def evaluate(symbol, g, tg, r):
         shares = number(yf.Ticker(symbol).fast_info.get('shares'))
     cash = number(info.get('totalCash'))
     debt = number(info.get('totalDebt'))
+    if cash is None or debt is None:
+        raise ValueError(f'Missing cash or debt: cash={cash}, debt={debt}')
     roe = number(info.get('returnOnEquity'))
     de_pct = number(info.get('debtToEquity'))
     if not price or not fcf or fcf <= 0 or not shares or shares <= 0:
