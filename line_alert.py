@@ -60,6 +60,35 @@ def main():
         raise FileNotFoundError(f'Cannot find {CSV_PATH}')
 
     df = pd.read_csv(CSV_PATH)
+  
+    # Only alert on stocks scanned recently.
+    if "Scanned UTC" not in df.columns:
+        raise ValueError(
+            "Missing Scanned UTC column"
+        )
+
+    scanned = pd.to_datetime(
+        df["Scanned UTC"],
+        errors="coerce",
+        utc=True
+    )
+
+    now = pd.Timestamp.now(tz="UTC")
+    age = now - scanned
+
+    fresh = (
+        scanned.notna()
+        & (age >= pd.Timedelta(0))
+        & (age <= pd.Timedelta(hours=6))
+    )
+
+    df = df.loc[fresh].copy()
+
+    print(
+        f"Fresh stocks for LINE: {len(df)}",
+        flush=True
+    )
+
     required = {'Ticker', 'Quality Pass', 'Value Pass', 'MOS (%)', 'CDC Buy today'}
     missing = required - set(df.columns)
     if missing:
