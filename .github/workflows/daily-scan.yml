@@ -15,7 +15,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 90
 
     steps:
       - name: Checkout repository
@@ -30,12 +30,38 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      
+
       - name: Run scanner
         env:
           BATCH_SIZE: '25'
           SCAN_DELAY: '0.5'
-        run: python scan_batch.py
+        run: |
+          echo "0" > data/scan_state.txt
+
+          completed=false
+
+          for batch in $(seq 1 30); do
+            echo "Running batch $batch"
+
+            python scan_batch.py
+
+            next_index=$(cat data/scan_state.txt)
+            echo "Next index: $next_index"
+
+            if [ "$next_index" = "0" ]; then
+              echo "Full S&P 500 scan completed"
+              completed=true
+              break
+            fi
+
+            sleep 2
+          done
+
+          if [ "$completed" != "true" ]; then
+            echo "Full scan did not complete"
+            exit 1
+          fi
+
 
       - name: Commit scan results
         run: |
