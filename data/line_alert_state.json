@@ -1,8 +1,16 @@
 {
   "value_alerted": [
+    "ACN",
     "ADBE",
     "AOS",
-    "APTV"
+    "APTV",
+    "CI",
+    "CMCSA",
+    "DECK",
+    "EXPE",
+    "LULU",
+    "PHM",
+    "T"
   ],
   "buy_alerted": []
 }
