@@ -30,7 +30,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      
       - name: Run scanner
+        env:
+          BATCH_SIZE: '25'
+          SCAN_DELAY: '0.5'
         run: python scan_batch.py
 
       - name: Commit scan results
@@ -39,6 +43,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add data/latest_scan.csv data/scan_state.txt
+          git add -f data/scan_errors.csv 2>/dev/null || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
