@@ -61,8 +61,6 @@ def evaluate(symbol, g, tg, r):
     de_pct = number(info.get('debtToEquity'))
     if not price or not fcf or fcf <= 0 or not shares or shares <= 0:
             raise ValueError(f'price={price}, shares={shares}, FCF={fcf}')
-    if cash is None or debt is None:
-        raise ValueError('Missing cash or debt')
     if r <= tg:
         raise ValueError('Discount rate must exceed terminal growth')
     forecast = [fcf * (1 + g) ** year for year in range(1, 6)]
