@@ -70,8 +70,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/latest_scan.csv data/scan_state.txt
+          
+          git add -A -- data/latest_scan.csv data/scan_state.txt
           git add -f data/scan_errors.csv 2>/dev/null || true
+
+          if [ ! -f data/latest_scan.csv ]; then
+            echo "ERROR: No successful stock valuations"
+            exit 1
+          fi
+
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
