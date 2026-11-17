@@ -52,7 +52,7 @@ def evaluate(symbol, g, tg, r):
     roe = number(info.get('returnOnEquity'))
     de_pct = number(info.get('debtToEquity'))
     if not price or not fcf or fcf <= 0 or not shares or shares <= 0:
-        raise ValueError('Missing price/shares or non-positive free cash flow')
+        raise ValueError(f'price={price}, shares={shares}, FCF={fcf}')
     if cash is None or debt is None:
         raise ValueError('Missing cash or debt')
     if r <= tg:
