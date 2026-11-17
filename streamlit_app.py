@@ -45,8 +45,14 @@ def get_fcf(info, cashflow):
 def evaluate(symbol, g, tg, r):
     info, cashflow = fetch(symbol)
     price = number(info.get('currentPrice')) or number(info.get('regularMarketPrice'))
+    if price is None:
+        hist = yf.Ticker(symbol).history(period='5d')
+        if not hist.empty:
+            price = number(hist['Close'].iloc[-1])
     fcf = get_fcf(info, cashflow)
     shares = number(info.get('sharesOutstanding'))
+    if shares is None:
+        shares = number(yf.Ticker(symbol).fast_info.get('shares'))
     cash = number(info.get('totalCash'))
     debt = number(info.get('totalDebt'))
     roe = number(info.get('returnOnEquity'))
