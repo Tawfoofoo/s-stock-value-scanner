@@ -1,13 +1,156 @@
 Ticker,Reason,Scanned UTC
-BLK,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:06:10.560187+00:00
-BNY,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:06:12.525649+00:00
-BRK-B,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:06:14.387718+00:00
-BRO,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:06:14.887950+00:00
-BX,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:06:16.602223+00:00
-BXP,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:06:17.102443+00:00
-C,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:06:17.602676+00:00
-CB,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:06:23.600122+00:00
-CBOE,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:06:24.100339+00:00
-CBRE,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:06:24.600608+00:00
-CCI,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:06:25.100819+00:00
-CEG,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:06:29.701297+00:00
+ACGL,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:30:12.172557+00:00
+AEE,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:30:23.926471+00:00
+AEP,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:30:24.426664+00:00
+AES,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:30:24.926872+00:00
+AFL,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:30:25.427076+00:00
+AIG,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:30:25.927266+00:00
+AIZ,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:30:26.427471+00:00
+AJG,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:30:26.927651+00:00
+ALB,Non-positive normalized FCF; DCF unsuitable,2026-11-17T07:30:30.829940+00:00
+ALL,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:30:33.095249+00:00
+AMP,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:30:48.269875+00:00
+AMT,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:30:48.770049+00:00
+AON,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:30:53.178588+00:00
+APD,Non-positive normalized FCF; DCF unsuitable,2026-11-17T07:30:58.951416+00:00
+APO,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:31:01.386110+00:00
+ARE,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:31:05.705755+00:00
+ARES,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:31:06.206021+00:00
+ATO,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:31:06.706330+00:00
+AWK,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:31:11.000803+00:00
+AXP,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:31:13.392201+00:00
+BAC,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:31:20.934783+00:00
+BE,Non-positive normalized FCF; DCF unsuitable,2026-11-17T07:31:30.591484+00:00
+BEN,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:31:31.091774+00:00
+BG,Non-positive normalized FCF; DCF unsuitable,2026-11-17T07:31:34.903256+00:00
+BLK,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:31:41.010540+00:00
+BNY,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:31:43.497869+00:00
+BRK-B,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:31:45.926969+00:00
+BRO,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:31:46.427186+00:00
+BX,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:31:48.660555+00:00
+BXP,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:31:49.160822+00:00
+C,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:31:49.661169+00:00
+CB,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:32:01.259764+00:00
+CBOE,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:32:01.759963+00:00
+CBRE,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:32:02.260164+00:00
+CCI,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:32:02.760353+00:00
+CEG,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:32:09.154728+00:00
+CFG,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:32:11.616943+00:00
+CINF,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:32:21.678423+00:00
+CME,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:32:28.099158+00:00
+CMS,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:32:32.358910+00:00
+CNP,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:32:37.759009+00:00
+COF,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:32:38.259234+00:00
+COIN,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:32:40.464603+00:00
+CPAY,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:32:48.559911+00:00
+CPT,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:32:50.917153+00:00
+CSGP,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:33:00.695758+00:00
+D,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:33:12.828249+00:00
+DLR,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:33:39.338036+00:00
+DOC,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:33:41.547809+00:00
+DTE,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:33:49.927715+00:00
+DUK,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:33:50.427898+00:00
+ECHO,Non-positive normalized FCF; DCF unsuitable,2026-11-17T07:34:02.978205+00:00
+ED,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:34:05.470554+00:00
+EG,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:34:07.843904+00:00
+EIX,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:34:08.344095+00:00
+EQIX,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:34:18.074183+00:00
+ERIE,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:34:20.506674+00:00
+ES,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:34:21.006874+00:00
+ESS,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:34:21.507049+00:00
+ETR,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:34:23.842738+00:00
+EVRG,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:34:24.342936+00:00
+EXC,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:34:26.556140+00:00
+EXR,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:34:32.616673+00:00
+FDS,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:34:44.166951+00:00
+FDXF,Need at least 210 daily price bars,2026-11-17T07:34:46.912118+00:00
+FE,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:34:47.412327+00:00
+FIS,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:34:53.413061+00:00
+FISV,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:34:53.913256+00:00
+FITB,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:34:54.413455+00:00
+FRT,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:35:02.468386+00:00
+FSLR,Non-positive normalized FCF; DCF unsuitable,2026-11-17T07:35:04.311377+00:00
+GL,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:35:26.980056+00:00
+GM,Non-positive normalized FCF; DCF unsuitable,2026-11-17T07:35:30.554681+00:00
+GPN,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:35:38.563478+00:00
+GS,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:35:41.073595+00:00
+HBAN,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:35:47.656441+00:00
+HIG,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:35:51.886804+00:00
+HONA,Need at least 210 daily price bars,2026-11-17T07:36:01.885978+00:00
+HOOD,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:36:02.386170+00:00
+HST,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:36:10.719078+00:00
+IBKR,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:36:19.053669+00:00
+ICE,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:36:21.483888+00:00
+INTC,Non-positive normalized FCF; DCF unsuitable,2026-11-17T07:36:32.672155+00:00
+INVH,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:36:35.278827+00:00
+IRM,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:36:46.092981+00:00
+IVZ,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:36:52.516001+00:00
+JKHY,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:37:00.430748+00:00
+JPM,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:37:02.883746+00:00
+KEY,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:37:05.142364+00:00
+KIM,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:37:09.138273+00:00
+KKR,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:37:09.638479+00:00
+L,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:37:19.555073+00:00
+LITE,Non-positive normalized FCF; DCF unsuitable,2026-11-17T07:37:36.482696+00:00
+LNT,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:37:41.056610+00:00
+LUV,Non-positive normalized FCF; DCF unsuitable,2026-11-17T07:37:48.471134+00:00
+MA,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:37:54.170636+00:00
+MAA,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:37:54.670865+00:00
+MCO,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:38:04.964497+00:00
+MET,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:38:12.481122+00:00
+MRNA,Non-positive normalized FCF; DCF unsuitable,2026-11-17T07:38:36.180420+00:00
+MRSH,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:38:36.680660+00:00
+MS,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:38:39.076141+00:00
+MSCI,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:38:39.576311+00:00
+MTB,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:38:43.986375+00:00
+NCLH,Non-positive normalized FCF; DCF unsuitable,2026-11-17T07:38:49.568318+00:00
+NDAQ,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:38:50.068596+00:00
+NEE,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:38:55.882028+00:00
+NI,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:39:00.174953+00:00
+NRG,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:39:06.592014+00:00
+NTRS,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:39:10.983202+00:00
+O,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:39:22.712343+00:00
+PCG,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:39:50.929429+00:00
+PEG,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:39:51.429644+00:00
+PFG,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:39:56.047830+00:00
+PGR,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:39:58.617965+00:00
+PLD,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:40:04.844885+00:00
+PNC,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:40:09.192604+00:00
+PNW,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:40:11.575813+00:00
+PPL,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:40:19.145449+00:00
+PRU,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:40:19.645616+00:00
+PSA,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:40:20.145800+00:00
+PYPL,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:40:26.261286+00:00
+REG,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:40:34.173247+00:00
+RF,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:40:36.465553+00:00
+RJF,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:40:36.965759+00:00
+SBAC,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:40:54.697269+00:00
+SCHW,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:41:00.143628+00:00
+SMCI,Non-positive normalized FCF; DCF unsuitable,2026-11-17T07:41:09.498474+00:00
+SNDK,Non-positive normalized FCF; DCF unsuitable,2026-11-17T07:41:13.387617+00:00
+SO,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:41:15.733532+00:00
+SPG,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:41:17.964647+00:00
+SPGI,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:41:18.464875+00:00
+SRE,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:41:18.965073+00:00
+STT,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:41:23.312318+00:00
+SYF,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:41:33.304192+00:00
+TFC,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:41:52.556169+00:00
+TROW,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:42:10.393765+00:00
+TRV,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:42:10.894036+00:00
+TTWO,Non-positive normalized FCF; DCF unsuitable,2026-11-17T07:42:20.538294+00:00
+UDR,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:42:35.650042+00:00
+USB,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:42:47.743183+00:00
+V,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:42:48.243363+00:00
+VICI,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:42:50.490227+00:00
+VMRK,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:42:56.575648+00:00
+VST,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:43:04.149818+00:00
+VTR,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:43:07.626744+00:00
+VYLR,Need at least 210 daily price bars,2026-11-17T07:43:10.344697+00:00
+WEC,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:43:20.113395+00:00
+WELL,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:43:20.613726+00:00
+WFC,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:43:21.113899+00:00
+WRB,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:43:27.567429+00:00
+WTW,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:43:31.905988+00:00
+WY,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:43:32.406217+00:00
+XEL,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:43:34.795094+00:00
+XYZ,Special Review: requires sector-specific valuation; generic FCF DCF skipped,2026-11-17T07:43:38.965211+00:00
