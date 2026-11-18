@@ -1,12 +1,10 @@
-"""V6 valuation engine (maintenance release).
+"""US Stock Value Scanner V6 — final maintenance fix.
 
-Indicative equity cash-flow proxy DCF, NOT a full FCFE/FCFF valuation.
-Yahoo Finance operating cash flow less capex is used as an equity cash-flow
-proxy under US-GAAP-like interest classification. Principal borrowing/repayment
-is not modeled. Cost of equity (not WACC) discounts this proxy; cash and debt
-are NOT added/subtracted again. Treat results as screening estimates only.
-
-Public evaluate() signature and result column names are kept for V6 consumers.
+Indicative equity cash-flow proxy DCF, not a full FCFE/FCFF valuation.
+Annual operating cash flow less capex is used as an equity cash-flow proxy;
+principal borrowing/repayment is not modeled. Cost of equity discounts this
+proxy; cash and debt are not added/subtracted again. Screening estimates only.
+Public evaluate() signature and result columns remain V6-compatible.
 """
 import math
 import numpy as np
@@ -30,19 +28,25 @@ def first(*xs):
 
 
 def dated_values(frame, names):
-    """Return annual statement row keyed by YYYY-MM-DD; never mix quarterly data."""
+    """Read annual-statement rows by year-end date; never use quarterly data."""
     if frame is None or not isinstance(frame, pd.DataFrame) or frame.empty:
         return {}
     dates = pd.to_datetime(frame.columns, utc=True, errors='coerce')
     if dates.isna().any() or len(set(dates)) != len(dates):
         return {}
+    result = {}
+    # Fill gaps across aliases; preserve the first available valid observation.
     for name in names:
-        if name in frame.index:
-            s = frame.loc[name]
-            if isinstance(s, pd.DataFrame):
-                s = s.iloc[0]
-            return {d.strftime('%Y-%m-%d'): num(v) for d, v in zip(dates, s)}
-    return {}
+        if name not in frame.index:
+            continue
+        rows = frame.loc[[name]]
+        for _, row in rows.iterrows():
+            for date, value in zip(dates, row):
+                key = date.strftime('%Y-%m-%d')
+                candidate = num(value)
+                if key not in result or (result[key] is None and candidate is not None):
+                    result[key] = candidate
+    return result
 
 
 def latest(frame, names):
@@ -66,9 +70,12 @@ def fundamentals(symbol):
 @st.cache_data(ttl=1800, show_spinner=False)
 def history(symbol):
     d = yf.Ticker(symbol).history(period='2y', auto_adjust=True)
-    if d is None or d.empty or len(d) < 210:
+    if d is None or d.empty:
         raise ValueError('Insufficient daily price history')
-    return d[['Open', 'High', 'Low', 'Close', 'Volume']].dropna(subset=['Close']).copy()
+    d = d[['Open', 'High', 'Low', 'Close', 'Volume']].dropna(subset=['Close']).copy()
+    if len(d) < 210:
+        raise ValueError('Insufficient daily price history')
+    return d
 
 
 def indicators(hist):
@@ -137,11 +144,7 @@ def technical(d):
 
 
 def dcf(fcf, cash, debt, shares, growth, terminal, rate):
-    """Five-year equity FCF proxy DCF. cash/debt retained for API compatibility.
-
-    Inputs cash and debt are NOT added to or subtracted from equity value.
-    They are checked for finiteness if supplied; not used in the calculation.
-    """
+    """Five-year equity FCF proxy DCF; cash/debt API args not added/subtracted."""
     vals = [num(x) for x in (fcf, shares, growth, terminal, rate)]
     if any(x is None for x in vals):
         return None
@@ -161,7 +164,7 @@ def dcf(fcf, cash, debt, shares, growth, terminal, rate):
 
 
 def quality_score(roe, de, fcf_values, revenue_values, earnings_values, cash_conversion):
-    """Conservative evidence-based score. Lists are newest -> oldest, annual."""
+    """V6 scoring unchanged; annual arrays newest first."""
     score = 0
     if roe is not None:
         score += 15 if roe >= .20 else 10 if roe >= .12 else 5 if roe > 0 else 0
@@ -169,7 +172,6 @@ def quality_score(roe, de, fcf_values, revenue_values, earnings_values, cash_con
         score += 10 if cash_conversion >= 1 else 6 if cash_conversion >= .7 else 0
     if de is not None and de >= 0:
         score += 20 if de <= .5 else 14 if de <= 1 else 7 if de <= 2 else 0
-    # Do not compress missing annual observations; a missing year breaks continuity.
     if len(fcf_values) >= 3 and all(x is not None for x in fcf_values):
         score += 15 if all(v > 0 for v in fcf_values) else 7 if sum(v > 0 for v in fcf_values) >= len(fcf_values) - 1 else 0
         score += 10 if fcf_values[0] >= fcf_values[-1] > 0 else 5 if fcf_values[0] > 0 else 0
@@ -182,7 +184,7 @@ def quality_score(roe, de, fcf_values, revenue_values, earnings_values, cash_con
 
 
 def annual_series(values, count=5):
-    """Use consecutive annual dates, allowing 330-400 days between year ends."""
+    """Select latest contiguous annual observations, allowing 330–400 days."""
     pairs = sorted(((pd.Timestamp(k), v) for k, v in values.items() if k != 'fallback'), reverse=True)
     if not pairs:
         return []
@@ -197,9 +199,39 @@ def annual_series(values, count=5):
     return result
 
 
+def annual_fcf_map(cf):
+    """Fill missing direct FCF observations with CFO minus absolute capex, by date.
+
+    A zero or negative FCF is a real observation, not a missing value.
+    No annual observations are fabricated or borrowed across years.
+    """
+    direct = dated_values(cf, ['Free Cash Flow', 'FreeCashFlow'])
+    operating = dated_values(cf, ['Operating Cash Flow', 'Cash Flow From Continuing Operating Activities'])
+    capex = dated_values(cf, ['Capital Expenditure', 'Capital Expenditures'])
+    result = dict(direct)
+    for date in operating.keys() & capex.keys():
+        if result.get(date) is None and operating[date] is not None and capex[date] is not None:
+            result[date] = operating[date] - abs(capex[date])
+    return result
+
+
+def fcf_history_or_error(fcf_map):
+    """Fail with actionable diagnostics, without relaxing three-year requirement."""
+    if not fcf_map:
+        raise ValueError('Missing annual FCF (direct and CFO/capex unavailable)')
+    series = annual_series(fcf_map)
+    if len(series) < 3 or any(v is None for _, v in series):
+        dates = ','.join(f'{d.date()}={"NA" if v is None else "OK"}' for d, v in series)
+        raise ValueError(f'Insufficient consecutive annual FCF history (<3 years); found={len(series)}; dates={dates}')
+    last_date = series[0][0]
+    if (pd.Timestamp.now(tz='UTC').tz_localize(None) - last_date).days > 550:
+        raise ValueError('Stale annual FCF statements')
+    return series
+
+
 def evaluate(symbol, growth_cap=.10, rate=.10, terminal=.025, min_upside=20,
              min_quality=70, unused=1.0, sector='Unknown'):
-    """Keep V6 positional arguments and CSV column names unchanged."""
+    """V6-compatible positional arguments, return columns and technical signals."""
     if sector in SPECIAL:
         raise ValueError('Special Review: sector-specific valuation required')
     if any(num(x) is None for x in (growth_cap, rate, terminal, min_upside, min_quality)):
@@ -220,14 +252,7 @@ def evaluate(symbol, growth_cap=.10, rate=.10, terminal=.025, min_upside=20,
     cash = first(info.get('totalCash'), latest(bs, ['Cash Cash Equivalents And Short Term Investments',
                                                   'Cash And Cash Equivalents', 'Cash And Short Term Investments']))
     debt = first(info.get('totalDebt'), latest(bs, ['Total Debt']))
-    fcf_map = dated_values(cf, ['Free Cash Flow', 'FreeCashFlow'])
-    if not fcf_map or not any(v is not None for v in fcf_map.values()):
-        operating = dated_values(cf, ['Operating Cash Flow', 'Cash Flow From Continuing Operating Activities'])
-        capex = dated_values(cf, ['Capital Expenditure', 'Capital Expenditures'])
-        fcf_map = {date: operating[date] - abs(capex[date])
-                   for date in operating.keys() & capex.keys()
-                   if operating[date] is not None and capex[date] is not None}
-    # An info.freeCashflow fallback has no annual history; do not pretend it has 3 years.
+    fcf_map = annual_fcf_map(cf)
     missing = [k for k, v in [('price', price), ('shares', shares)] if v is None]
     if not fcf_map:
         missing.append('annual FCF')
@@ -235,13 +260,7 @@ def evaluate(symbol, growth_cap=.10, rate=.10, terminal=.025, min_upside=20,
         raise ValueError('Missing ' + ', '.join(missing))
     if price <= 0 or shares <= 0:
         raise ValueError('Invalid price/shares')
-    series = annual_series(fcf_map)
-    if len(series) < 3 or any(v is None for _, v in series):
-        raise ValueError('Insufficient consecutive annual FCF history (<3 years)')
-    # Reject stale annual financials (e.g., discontinued ticker or broken Yahoo feed).
-    last_date = series[0][0]
-    if (pd.Timestamp.now(tz='UTC').tz_localize(None) - last_date).days > 550:
-        raise ValueError('Stale annual FCF statements')
+    series = fcf_history_or_error(fcf_map)
     recent = [v for _, v in series]
     normalized = float(np.median(recent))
     if normalized <= 0:
