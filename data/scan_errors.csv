@@ -1,466 +1,466 @@
 Ticker,Sector,Status,Reason,Scanned UTC
-AAPL,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T18:32:57.682666+00:00
-ABBV,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:33:05.094652+00:00
-ABNB,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:33:12.351926+00:00
-ABT,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:33:19.855724+00:00
-ACGL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:33:20.355969+00:00
-ADBE,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-11-30=OK,2024-11-30=OK,2023-11-30=OK,2022-11-30=OK,2021-11-30=NA",2026-11-18T18:33:29.273705+00:00
-ADM,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:33:38.013857+00:00
-AEE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:33:41.203357+00:00
-AEP,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:33:41.703573+00:00
-AES,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:33:42.203776+00:00
-AFL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:33:42.703986+00:00
-AIG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:33:43.204188+00:00
-AIZ,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:33:43.704397+00:00
-AJG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:33:44.204718+00:00
-AKAM,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:33:51.623784+00:00
-ALB,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:33:58.915558+00:00
-ALGN,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:34:06.422939+00:00
-ALL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:34:06.923187+00:00
-ALLE,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:34:14.261091+00:00
-AMCR,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T18:34:25.970918+00:00
-AMD,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:34:33.165189+00:00
-AME,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:34:40.619741+00:00
-AMGN,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:34:47.919784+00:00
-AMP,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:34:48.420020+00:00
-AMT,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:34:48.920230+00:00
-AMZN,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:34:56.292162+00:00
-ANET,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:35:03.660675+00:00
-AON,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:35:04.160896+00:00
-APA,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:35:13.335539+00:00
-APD,Materials,Error,Non-positive normalized FCF,2026-11-18T18:35:20.670848+00:00
-APH,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:35:28.196877+00:00
-APO,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:35:28.697098+00:00
-APP,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:35:36.114808+00:00
-APTV,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:35:43.420116+00:00
-ARE,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:35:43.920354+00:00
-ARES,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:35:44.420579+00:00
-ATO,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:35:44.920798+00:00
-AVY,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:35:53.753752+00:00
-AWK,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:35:54.253971+00:00
-AXON,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:36:01.605142+00:00
-AXP,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:36:02.105383+00:00
-AZO,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-08-31=OK,2025-08-31=OK,2024-08-31=OK,2023-08-31=OK,2022-08-31=NA",2026-11-18T18:36:09.329872+00:00
-BA,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:36:19.871215+00:00
-BAC,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:36:20.371452+00:00
-BALL,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:36:27.853432+00:00
-BAX,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:36:35.401601+00:00
-BBY,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T18:36:42.964806+00:00
-BE,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:36:51.844247+00:00
-BEN,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:36:52.344480+00:00
-BF-B,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-04-30=OK,2025-04-30=OK,2024-04-30=OK,2023-04-30=OK,2022-04-30=NA",2026-11-18T18:36:59.910913+00:00
-BG,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:37:07.523243+00:00
-BIIB,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:37:14.743636+00:00
-BKNG,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:37:22.096113+00:00
-BKR,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:37:29.556629+00:00
-BLK,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:37:30.056866+00:00
-BMY,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:37:37.542458+00:00
-BNY,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:37:38.042691+00:00
-BR,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T18:37:45.435616+00:00
-BRK-B,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:37:45.935840+00:00
-BRO,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:37:46.436070+00:00
-BSX,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:37:53.700992+00:00
-BX,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:37:54.201237+00:00
-BXP,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:37:54.701474+00:00
-C,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:37:55.201699+00:00
-CAH,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T18:38:02.650748+00:00
-CARR,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:38:09.985218+00:00
-CASY,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-04-30=OK,2025-04-30=OK,2024-04-30=OK,2023-04-30=OK,2022-04-30=NA",2026-11-18T18:38:20.408186+00:00
-CAT,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:38:28.154548+00:00
-CB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:38:28.654784+00:00
-CBOE,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:38:29.155025+00:00
-CBRE,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:38:29.655245+00:00
-CCI,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:38:30.155504+00:00
-CCL,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-11-30=OK,2024-11-30=OK,2023-11-30=OK,2022-11-30=OK,2021-11-30=NA",2026-11-18T18:38:37.668880+00:00
-CDNS,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:38:44.946053+00:00
-CDW,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:38:52.274670+00:00
-CEG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:38:52.774917+00:00
-CF,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:39:00.239187+00:00
-CFG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:39:00.739441+00:00
-CHD,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:39:08.166760+00:00
-CHRW,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:39:15.572220+00:00
-CHTR,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:39:22.886763+00:00
-CI,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:39:30.271659+00:00
-CINF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:39:32.348514+00:00
-CL,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:39:39.876959+00:00
-CLX,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T18:39:47.474512+00:00
-CMCSA,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:39:54.881913+00:00
-CME,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:39:55.382127+00:00
-CMG,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:40:02.653884+00:00
-CMI,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:40:10.182719+00:00
-CMS,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:40:10.682943+00:00
-CNC,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:40:20.889604+00:00
-CNP,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:40:21.389818+00:00
-COF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:40:21.890030+00:00
-COHR,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T18:40:29.097204+00:00
-COIN,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:40:29.597416+00:00
-COP,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:40:38.362275+00:00
-COST,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-08-31=OK,2025-08-31=OK,2024-08-31=OK,2023-08-31=OK,2022-08-31=NA",2026-11-18T18:40:47.352386+00:00
-CPAY,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:40:47.852646+00:00
-CPRT,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-07-31=OK,2025-07-31=OK,2024-07-31=OK,2023-07-31=OK,2022-07-31=NA",2026-11-18T18:40:55.075212+00:00
-CPT,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:40:55.575484+00:00
-CRH,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:41:03.074651+00:00
-CRL,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:41:10.357135+00:00
-CRM,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T18:41:17.774058+00:00
-CRWD,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T18:41:25.074634+00:00
-CSCO,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-07-31=OK,2025-07-31=OK,2024-07-31=OK,2023-07-31=OK,2022-07-31=NA",2026-11-18T18:41:32.396323+00:00
-CSGP,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:41:32.896543+00:00
-CSX,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:41:40.335139+00:00
-CTAS,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-05-31=OK,2025-05-31=OK,2024-05-31=OK,2023-05-31=OK,2022-05-31=NA",2026-11-18T18:41:47.831484+00:00
-CTSH,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:41:55.639144+00:00
-CVNA,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:42:02.995065+00:00
-CVS,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:42:10.540941+00:00
-CVX,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:42:17.980539+00:00
-D,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:42:18.480780+00:00
-DAL,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:42:28.779629+00:00
-DASH,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:42:36.077727+00:00
-DD,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:42:43.599143+00:00
-DDOG,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:42:50.959763+00:00
-DECK,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-03-31=OK,2025-03-31=OK,2024-03-31=OK,2023-03-31=OK,2022-03-31=NA",2026-11-18T18:42:59.695910+00:00
-DG,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T18:43:08.391463+00:00
-DGX,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:43:15.813612+00:00
-DHR,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:43:24.555802+00:00
-DLR,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:43:26.604619+00:00
-DLTR,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T18:43:33.982867+00:00
-DOC,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:43:34.483098+00:00
-DOV,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:43:41.948077+00:00
-DOW,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:43:49.254551+00:00
-DPZ,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:43:56.691543+00:00
-DRI,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-05-31=OK,2025-05-31=OK,2024-05-31=OK,2023-05-31=OK,2022-05-31=NA",2026-11-18T18:44:04.170375+00:00
-DTE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:44:04.670625+00:00
-DUK,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:44:05.170850+00:00
-DVA,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:44:12.532248+00:00
-DVN,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:44:20.012840+00:00
-DXCM,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:44:27.436720+00:00
-EBAY,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:44:34.820852+00:00
-ECHO,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:44:45.146453+00:00
-ECL,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:44:52.569117+00:00
-ED,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:44:53.069348+00:00
-EFX,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:45:00.485431+00:00
-EG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:45:00.985680+00:00
-EIX,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:45:01.485906+00:00
-EL,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T18:45:08.919804+00:00
-ELV,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:45:16.381205+00:00
-EME,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:45:23.791112+00:00
-EMR,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T18:45:31.392925+00:00
-EQIX,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:45:33.455136+00:00
-EQT,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:45:40.806307+00:00
-ERIE,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:45:41.306526+00:00
-ES,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:45:41.806728+00:00
-ESS,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:45:42.306932+00:00
-ETN,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:45:49.822841+00:00
-ETR,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:45:50.323069+00:00
-EVRG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:45:50.823277+00:00
-EW,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:45:58.063044+00:00
-EXC,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:45:58.563314+00:00
-EXPD,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:46:07.195937+00:00
-EXPE,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:46:14.663984+00:00
-EXR,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:46:15.164243+00:00
-F,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:46:25.480112+00:00
-FANG,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:46:32.937565+00:00
-FAST,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:46:40.258091+00:00
-FDS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:46:42.134727+00:00
-FDX,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-05-31=OK,2025-05-31=OK,2024-05-31=OK,2023-05-31=OK,2022-05-31=NA",2026-11-18T18:46:49.626543+00:00
-FDXF,Industrials,Error,Insufficient daily price history,2026-11-18T18:46:56.248056+00:00
-FE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:46:56.748265+00:00
-FICO,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T18:47:07.017036+00:00
-FIS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:47:07.517253+00:00
-FISV,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:47:08.017479+00:00
-FITB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:47:08.517686+00:00
-FIX,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:47:15.854169+00:00
-FLEX,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-03-31=OK,2025-03-31=OK,2024-03-31=OK,2023-03-31=OK,2022-03-31=NA",2026-11-18T18:47:23.272345+00:00
-FOX,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T18:47:30.595074+00:00
-FOXA,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T18:47:37.968522+00:00
-FRT,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:47:38.468743+00:00
-FSLR,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:47:45.821793+00:00
-FTNT,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:47:53.094112+00:00
-FTV,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:48:00.465958+00:00
-GD,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:48:08.001109+00:00
-GDDY,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:48:15.439232+00:00
-GE,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:48:22.978082+00:00
-GEHC,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:48:33.411758+00:00
-GEN,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-03-31=OK,2025-03-31=OK,2024-03-31=OK,2023-03-31=OK,2022-03-31=NA",2026-11-18T18:48:40.775717+00:00
-GILD,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:48:49.715260+00:00
-GIS,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-05-31=OK,2025-05-31=OK,2024-05-31=OK,2023-05-31=OK,2022-05-31=NA",2026-11-18T18:48:57.244481+00:00
-GL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:48:57.744694+00:00
-GLW,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:49:05.263040+00:00
-GM,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:49:12.520601+00:00
-GNRC,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:49:19.908774+00:00
-GOOG,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:49:27.366899+00:00
-GOOGL,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:49:34.704201+00:00
-GPC,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:49:42.083697+00:00
-GPN,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:49:42.583928+00:00
-GRMN,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:49:50.126427+00:00
-GS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:49:50.626649+00:00
-GWW,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:49:58.046245+00:00
-HAL,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:50:05.540943+00:00
-HAS,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:50:12.848357+00:00
-HBAN,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:50:13.348597+00:00
-HD,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T18:50:22.254972+00:00
-HIG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:50:22.755197+00:00
-HII,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:50:30.205206+00:00
-HLT,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:50:37.530599+00:00
-HON,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:50:45.261305+00:00
-HONA,Industrials,Error,Insufficient daily price history,2026-11-18T18:50:54.878211+00:00
-HOOD,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:50:55.378392+00:00
-HSIC,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:51:06.951276+00:00
-HST,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:51:07.451490+00:00
-HSY,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:51:14.937753+00:00
-HUBB,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:51:22.337295+00:00
-HUM,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:51:29.918801+00:00
-HWM,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:51:37.249382+00:00
-IBKR,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:51:37.749633+00:00
-IBM,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:51:45.365287+00:00
-ICE,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:51:45.865535+00:00
-IDXX,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:51:53.142163+00:00
-IEX,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:52:00.524970+00:00
-IFF,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:52:07.899838+00:00
-ILMN,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:52:15.372637+00:00
-INCY,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:52:22.747978+00:00
-INTC,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:52:30.149541+00:00
-INTU,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-07-31=OK,2025-07-31=OK,2024-07-31=OK,2023-07-31=OK,2022-07-31=NA",2026-11-18T18:52:37.557315+00:00
-INVH,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:52:38.057538+00:00
-IP,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:52:45.585107+00:00
-IQV,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:52:52.943747+00:00
-IR,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:53:00.224173+00:00
-IRM,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:53:03.775356+00:00
-ISRG,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:53:11.250887+00:00
-IT,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:53:18.586579+00:00
-ITW,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:53:26.072798+00:00
-IVZ,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:53:26.573014+00:00
-JBHT,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:53:35.444897+00:00
-JBL,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-08-31=OK,2025-08-31=OK,2024-08-31=OK,2023-08-31=OK,2022-08-31=NA",2026-11-18T18:53:42.882640+00:00
-JCI,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T18:53:50.184658+00:00
-JKHY,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:53:50.684889+00:00
-JPM,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:53:52.775529+00:00
-KDP,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:54:00.257719+00:00
-KEY,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:54:00.757931+00:00
-KHC,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:54:09.411959+00:00
-KIM,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:54:09.912178+00:00
-KKR,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:54:10.412390+00:00
-KLAC,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T18:54:17.782377+00:00
-KMB,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:54:25.208445+00:00
-KMI,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:54:32.578222+00:00
-KR,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T18:54:41.368016+00:00
-L,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:54:41.868243+00:00
-LDOS,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:54:49.205843+00:00
-LEN,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-11-30=OK,2024-11-30=OK,2023-11-30=OK,2022-11-30=OK,2021-11-30=NA",2026-11-18T18:54:59.575650+00:00
-LH,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:55:07.117193+00:00
-LHX,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:55:14.511273+00:00
-LII,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:55:21.828675+00:00
-LIN,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:55:29.371038+00:00
-LITE,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T18:55:36.645758+00:00
-LLY,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:55:44.090442+00:00
-LMT,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:55:51.616929+00:00
-LNT,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:55:52.117164+00:00
-LOW,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T18:55:59.516718+00:00
-LRCX,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T18:56:06.836799+00:00
-LULU,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T18:56:14.180096+00:00
-LUV,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:56:21.738664+00:00
-LVS,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:56:29.075984+00:00
-LYB,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:56:36.341782+00:00
-LYV,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:56:43.723647+00:00
-MA,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:56:44.223873+00:00
-MAA,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:56:44.724090+00:00
-MAR,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:56:52.223376+00:00
-MAS,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:56:59.649064+00:00
-MCD,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:57:07.252113+00:00
-MCHP,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-03-31=OK,2025-03-31=OK,2024-03-31=OK,2023-03-31=OK,2022-03-31=NA",2026-11-18T18:57:14.806655+00:00
-MCK,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-03-31=OK,2025-03-31=OK,2024-03-31=OK,2023-03-31=OK,2022-03-31=NA",2026-11-18T18:57:22.233095+00:00
-MCO,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:57:22.733318+00:00
-MDT,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-04-30=OK,2025-04-30=OK,2024-04-30=OK,2023-04-30=OK,2022-04-30=NA",2026-11-18T18:57:34.455272+00:00
-MET,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:57:34.955506+00:00
-META,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:57:42.193864+00:00
-MGM,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:57:49.586105+00:00
-MKC,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-11-30=OK,2024-11-30=OK,2023-11-30=OK,2022-11-30=OK,2021-11-30=NA",2026-11-18T18:57:57.205465+00:00
-MLM,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:58:04.770259+00:00
-MMM,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:58:12.172382+00:00
-MO,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:58:20.848690+00:00
-MOS,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:58:28.337640+00:00
-MPC,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:58:35.652815+00:00
-MPWR,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:58:42.975764+00:00
-MRK,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:58:50.326067+00:00
-MRNA,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:58:57.660766+00:00
-MRSH,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:58:58.160998+00:00
-MRVL,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T18:59:05.568205+00:00
-MS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:59:06.068454+00:00
-MSCI,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:59:06.568662+00:00
-MSFT,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T18:59:13.868586+00:00
-MSI,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:59:21.399430+00:00
-MTB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:59:21.899651+00:00
-MTD,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:59:29.125039+00:00
-MU,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-08-31=OK,2025-08-31=OK,2024-08-31=OK,2023-08-31=OK,2022-08-31=NA",2026-11-18T18:59:36.586020+00:00
-NCLH,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:59:43.956513+00:00
-NDAQ,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:59:44.456756+00:00
-NEE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T18:59:49.210615+00:00
-NEM,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T18:59:56.759286+00:00
-NFLX,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:00:04.098316+00:00
-NI,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:00:04.598526+00:00
-NKE,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-05-31=OK,2025-05-31=OK,2024-05-31=OK,2023-05-31=OK,2022-05-31=NA",2026-11-18T19:00:12.179095+00:00
-NOC,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:00:19.765155+00:00
-NOW,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:00:27.091476+00:00
-NRG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:00:27.591706+00:00
-NSC,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:00:35.167939+00:00
-NTAP,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-04-30=OK,2025-04-30=OK,2024-04-30=OK,2023-04-30=OK,2022-04-30=NA",2026-11-18T19:00:42.508642+00:00
-NTRS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:00:43.008882+00:00
-NVDA,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T19:00:51.700844+00:00
-NVR,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:00:58.968258+00:00
-NWS,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T19:01:06.369751+00:00
-NWSA,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T19:01:13.686316+00:00
-NXPI,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:01:20.997767+00:00
-O,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:01:21.497998+00:00
-ODFL,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:01:28.905890+00:00
-OKE,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:01:36.309253+00:00
-OKTA,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T19:01:43.724532+00:00
-OMC,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:01:51.035950+00:00
-ON,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:01:58.482452+00:00
-ORCL,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-05-31=OK,2025-05-31=OK,2024-05-31=OK,2023-05-31=OK,2022-05-31=NA",2026-11-18T19:02:06.039327+00:00
-ORLY,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:02:16.579675+00:00
-OTIS,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:02:24.190934+00:00
-OXY,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:02:31.865031+00:00
-P,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T19:02:39.276453+00:00
-PANW,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-07-31=OK,2025-07-31=OK,2024-07-31=OK,2023-07-31=OK,2022-07-31=NA",2026-11-18T19:02:46.977691+00:00
-PAYX,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-05-31=OK,2025-05-31=OK,2024-05-31=OK,2023-05-31=OK,2022-05-31=NA",2026-11-18T19:02:54.455117+00:00
-PCAR,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:03:02.128169+00:00
-PCG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:03:02.628397+00:00
-PEG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:03:03.128621+00:00
-PEP,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:03:10.931247+00:00
-PFE,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:03:18.867347+00:00
-PFG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:03:19.367601+00:00
-PG,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T19:03:27.003733+00:00
-PGR,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:03:27.503933+00:00
-PH,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T19:03:35.071128+00:00
-PHM,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:03:42.654632+00:00
-PKG,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:03:50.085243+00:00
-PLD,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:03:50.585486+00:00
-PLTR,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:03:57.985972+00:00
-PM,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:04:05.553088+00:00
-PNC,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:04:06.053319+00:00
-PNR,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:04:13.618749+00:00
-PNW,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:04:14.118986+00:00
-PODD,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:04:21.700501+00:00
-PPG,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:04:29.184752+00:00
-PPL,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:04:32.502089+00:00
-PRU,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:04:33.002282+00:00
-PSA,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:04:33.502503+00:00
-PWR,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:04:43.442430+00:00
-PYPL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:04:43.942644+00:00
-QCOM,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T19:04:52.575760+00:00
-RCL,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:04:59.934860+00:00
-RDDT,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:05:07.297976+00:00
-REG,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:05:07.798186+00:00
-REGN,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:05:15.170288+00:00
-RF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:05:15.670544+00:00
-RJF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:05:16.170739+00:00
-RL,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-03-31=OK,2025-03-31=OK,2024-03-31=OK,2023-03-31=OK,2022-03-31=NA",2026-11-18T19:05:23.457953+00:00
-RMD,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T19:05:30.826071+00:00
-ROK,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T19:05:38.480206+00:00
-ROL,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:05:46.058952+00:00
-ROP,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:05:53.488208+00:00
-ROST,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T19:06:00.888877+00:00
-RSG,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:06:08.379152+00:00
-RTX,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:06:15.892333+00:00
-RVTY,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:06:23.351609+00:00
-SBAC,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:06:23.851841+00:00
-SBUX,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T19:06:34.212120+00:00
-SCHW,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:06:34.712348+00:00
-SHW,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:06:42.215502+00:00
-SJM,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-04-30=OK,2025-04-30=OK,2024-04-30=OK,2023-04-30=OK,2022-04-30=NA",2026-11-18T19:06:49.563141+00:00
-SKYD,Communication Services,Error,Stale annual FCF statements,2026-11-18T19:06:56.887827+00:00
-SLB,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:07:04.377922+00:00
-SMCI,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T19:07:11.742895+00:00
-SNA,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:07:19.209687+00:00
-SNDK,Information Technology,Error,Non-positive normalized FCF,2026-11-18T19:07:26.543396+00:00
-SO,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:07:28.377371+00:00
-SOLV,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:07:35.785264+00:00
-SPG,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:07:36.285484+00:00
-SPGI,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:07:36.785691+00:00
-SRE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:07:37.285905+00:00
-STE,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-03-31=OK,2025-03-31=OK,2024-03-31=OK,2023-03-31=OK,2022-03-31=NA",2026-11-18T19:07:44.741911+00:00
-STLD,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:07:52.111490+00:00
-STT,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:07:52.611710+00:00
-STX,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T19:08:00.086110+00:00
-STZ,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-02-28=OK,2025-02-28=OK,2024-02-29=OK,2023-02-28=OK,2022-02-28=NA",2026-11-18T19:08:07.378701+00:00
-SW,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:08:14.794178+00:00
-SWK,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:08:22.227875+00:00
-SWKS,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T19:08:29.559610+00:00
-SYF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:08:30.059826+00:00
-SYK,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:08:37.555513+00:00
-SYY,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T19:08:47.886016+00:00
-T,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:08:55.253078+00:00
-TDG,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T19:09:02.649647+00:00
-TDY,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:09:10.004811+00:00
-TECH,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T19:09:17.421907+00:00
-TEL,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T19:09:24.847304+00:00
-TER,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:09:32.317969+00:00
-TFC,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:09:32.818195+00:00
-TGT,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T19:09:40.158561+00:00
-TJX,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T19:09:47.621428+00:00
-TKO,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:09:55.005784+00:00
-TMO,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:10:02.453628+00:00
-TMUS,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:10:09.810147+00:00
-TPL,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:10:17.568387+00:00
-TPR,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T19:10:24.828576+00:00
-TRGP,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:10:32.157674+00:00
-TRMB,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:10:39.383790+00:00
-TROW,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:10:39.884010+00:00
-TRV,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:10:40.384222+00:00
-TSCO,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:10:47.731796+00:00
-TSLA,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:10:54.973232+00:00
-TSN,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T19:11:02.354034+00:00
-TT,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:11:09.829014+00:00
-TTWO,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-03-31=OK,2025-03-31=OK,2024-03-31=OK,2023-03-31=OK,2022-03-31=NA",2026-11-18T19:11:17.290265+00:00
-TWLO,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:11:24.651760+00:00
-TXN,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:11:35.034057+00:00
-TXT,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:11:42.458997+00:00
-TYL,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:11:49.724730+00:00
-UAL,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:11:57.007310+00:00
-UBER,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:12:04.344313+00:00
-UDR,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:12:04.844532+00:00
-UHS,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:12:12.154657+00:00
-ULTA,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T19:12:19.469936+00:00
-UNH,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:12:26.965558+00:00
-UNP,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:12:34.407714+00:00
-UPS,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:12:41.777316+00:00
-URI,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:12:49.034362+00:00
-USB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:12:49.534611+00:00
-V,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:12:50.034816+00:00
-VEEV,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T19:12:57.964916+00:00
-VICI,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:12:58.465150+00:00
-VLO,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:13:05.914341+00:00
-VLTO,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:13:13.121634+00:00
-VMC,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:13:20.679441+00:00
-VMRK,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:13:21.179676+00:00
-VRSK,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:13:28.423334+00:00
-VRSN,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:13:35.959480+00:00
-VRT,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:13:43.348598+00:00
-VRTX,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:13:50.682237+00:00
-VST,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:13:51.182466+00:00
-VTR,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:13:54.493435+00:00
-VTRS,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:14:02.036228+00:00
-VYLR,Consumer Staples,Error,Insufficient daily price history,2026-11-18T19:14:08.649996+00:00
-VZ,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:14:16.197486+00:00
-WAB,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:14:23.692359+00:00
-WAT,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:14:31.090684+00:00
-WDAY,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T19:14:38.477282+00:00
-WDC,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T19:14:45.866905+00:00
-WEC,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:14:46.367165+00:00
-WELL,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:14:46.867434+00:00
-WFC,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:14:47.367669+00:00
-WM,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:14:54.807294+00:00
-WMB,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:15:02.307900+00:00
-WMT,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T19:15:09.776000+00:00
-WRB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:15:10.276215+00:00
-WSM,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T19:15:17.614303+00:00
-WST,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:15:25.047827+00:00
-WTW,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:15:25.548049+00:00
-WY,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:15:26.048249+00:00
-WYNN,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:15:33.430284+00:00
-XEL,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:15:33.930507+00:00
-XOM,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:15:41.296070+00:00
-XYL,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:15:48.687843+00:00
-XYZ,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T19:15:49.188067+00:00
-YUM,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:15:56.485146+00:00
-ZBH,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:16:06.787890+00:00
-ZBRA,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:16:14.134236+00:00
-ZTS,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T19:16:21.464900+00:00
+AAPL,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T20:48:28.315185+00:00
+ABBV,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:48:35.990293+00:00
+ABNB,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:48:43.548341+00:00
+ABT,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:48:51.360757+00:00
+ACGL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:48:51.860950+00:00
+ADBE,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-11-30=OK,2024-11-30=OK,2023-11-30=OK,2022-11-30=OK,2021-11-30=NA",2026-11-18T20:49:01.139779+00:00
+ADM,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:49:10.689768+00:00
+AEE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:49:14.551604+00:00
+AEP,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:49:15.051753+00:00
+AES,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:49:15.551909+00:00
+AFL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:49:16.052061+00:00
+AIG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:49:16.552219+00:00
+AIZ,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:49:17.052371+00:00
+AJG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:49:17.552526+00:00
+AKAM,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:49:25.409349+00:00
+ALB,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:49:33.162334+00:00
+ALGN,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:49:40.851496+00:00
+ALL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:49:41.351689+00:00
+ALLE,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:49:48.940123+00:00
+AMCR,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T20:50:01.426534+00:00
+AMD,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:50:09.362794+00:00
+AME,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:50:17.213354+00:00
+AMGN,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:50:24.783722+00:00
+AMP,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:50:25.283934+00:00
+AMT,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:50:25.784092+00:00
+AMZN,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:50:33.519953+00:00
+ANET,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:50:41.195740+00:00
+AON,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:50:41.695933+00:00
+APA,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:50:51.402389+00:00
+APD,Materials,Error,Non-positive normalized FCF,2026-11-18T20:50:59.104011+00:00
+APH,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:51:06.850944+00:00
+APO,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:51:07.351131+00:00
+APP,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:51:14.984269+00:00
+APTV,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:51:22.786597+00:00
+ARE,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:51:23.286781+00:00
+ARES,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:51:23.786891+00:00
+ATO,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:51:24.287031+00:00
+AVY,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:51:33.625656+00:00
+AWK,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:51:34.125845+00:00
+AXON,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:51:41.718226+00:00
+AXP,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:51:42.218412+00:00
+AZO,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-08-31=OK,2025-08-31=OK,2024-08-31=OK,2023-08-31=OK,2022-08-31=NA",2026-11-18T20:51:49.850963+00:00
+BA,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:52:00.785178+00:00
+BAC,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:52:01.285377+00:00
+BALL,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:52:09.016149+00:00
+BAX,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:52:16.817673+00:00
+BBY,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T20:52:24.465532+00:00
+BE,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:52:33.920852+00:00
+BEN,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:52:34.421060+00:00
+BF-B,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-04-30=OK,2025-04-30=OK,2024-04-30=OK,2023-04-30=OK,2022-04-30=NA",2026-11-18T20:52:42.178523+00:00
+BG,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:52:49.886884+00:00
+BIIB,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:52:57.553436+00:00
+BKNG,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:53:05.070699+00:00
+BKR,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:53:12.978622+00:00
+BLK,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:53:13.478809+00:00
+BMY,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:53:21.117240+00:00
+BNY,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:53:21.617427+00:00
+BR,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T20:53:29.296069+00:00
+BRK-B,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:53:29.796241+00:00
+BRO,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:53:30.296384+00:00
+BSX,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:53:37.904806+00:00
+BX,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:53:38.404995+00:00
+BXP,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:53:38.905147+00:00
+C,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:53:39.405296+00:00
+CAH,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T20:53:47.092033+00:00
+CARR,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:53:54.881246+00:00
+CASY,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-04-30=OK,2025-04-30=OK,2024-04-30=OK,2023-04-30=OK,2022-04-30=NA",2026-11-18T20:54:05.831823+00:00
+CAT,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:54:13.714263+00:00
+CB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:54:14.214450+00:00
+CBOE,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:54:14.714623+00:00
+CBRE,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:54:15.214778+00:00
+CCI,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:54:15.714931+00:00
+CCL,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-11-30=OK,2024-11-30=OK,2023-11-30=OK,2022-11-30=OK,2021-11-30=NA",2026-11-18T20:54:23.644658+00:00
+CDNS,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:54:31.234065+00:00
+CDW,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:54:38.952666+00:00
+CEG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:54:39.452853+00:00
+CF,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:54:47.240219+00:00
+CFG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:54:47.740400+00:00
+CHD,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:54:55.440606+00:00
+CHRW,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:55:03.187012+00:00
+CHTR,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:55:10.969077+00:00
+CI,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:55:18.730569+00:00
+CINF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:55:20.957608+00:00
+CL,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:55:28.553665+00:00
+CLX,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T20:55:36.423801+00:00
+CMCSA,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:55:44.169142+00:00
+CME,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:55:44.669345+00:00
+CMG,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:55:52.335073+00:00
+CMI,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:56:00.125515+00:00
+CMS,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:56:00.625685+00:00
+CNC,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:56:11.253164+00:00
+CNP,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:56:11.753352+00:00
+COF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:56:12.253511+00:00
+COHR,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T20:56:19.759491+00:00
+COIN,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:56:20.259675+00:00
+COP,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:56:30.132984+00:00
+COST,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-08-31=OK,2025-08-31=OK,2024-08-31=OK,2023-08-31=OK,2022-08-31=NA",2026-11-18T20:56:39.408057+00:00
+CPAY,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:56:39.908239+00:00
+CPRT,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-07-31=OK,2025-07-31=OK,2024-07-31=OK,2023-07-31=OK,2022-07-31=NA",2026-11-18T20:56:47.500457+00:00
+CPT,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:56:48.000641+00:00
+CRH,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:56:55.702410+00:00
+CRL,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:57:03.657854+00:00
+CRM,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T20:57:11.353122+00:00
+CRWD,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T20:57:18.954776+00:00
+CSCO,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-07-31=OK,2025-07-31=OK,2024-07-31=OK,2023-07-31=OK,2022-07-31=NA",2026-11-18T20:57:26.640499+00:00
+CSGP,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:57:27.140685+00:00
+CSX,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:57:34.992097+00:00
+CTAS,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-05-31=OK,2025-05-31=OK,2024-05-31=OK,2023-05-31=OK,2022-05-31=NA",2026-11-18T20:57:42.853358+00:00
+CTSH,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:57:50.582750+00:00
+CVNA,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:57:58.250006+00:00
+CVS,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:58:05.998650+00:00
+CVX,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:58:14.390709+00:00
+D,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:58:14.890899+00:00
+DAL,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:58:25.705629+00:00
+DASH,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:58:33.415976+00:00
+DD,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:58:41.206055+00:00
+DDOG,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:58:48.904395+00:00
+DECK,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-03-31=OK,2025-03-31=OK,2024-03-31=OK,2023-03-31=OK,2022-03-31=NA",2026-11-18T20:58:58.283406+00:00
+DG,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T20:59:07.522604+00:00
+DGX,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:59:15.409290+00:00
+DHR,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:59:24.815495+00:00
+DLR,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:59:27.172859+00:00
+DLTR,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T20:59:34.829529+00:00
+DOC,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T20:59:35.329709+00:00
+DOV,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:59:43.064566+00:00
+DOW,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:59:50.656543+00:00
+DPZ,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T20:59:58.306529+00:00
+DRI,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-05-31=OK,2025-05-31=OK,2024-05-31=OK,2023-05-31=OK,2022-05-31=NA",2026-11-18T21:00:06.087829+00:00
+DTE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:00:06.587987+00:00
+DUK,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:00:07.088125+00:00
+DVA,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:00:14.636376+00:00
+DVN,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:00:22.367569+00:00
+DXCM,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:00:29.890905+00:00
+EBAY,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:00:37.616596+00:00
+ECHO,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:00:48.508930+00:00
+ECL,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:00:56.384388+00:00
+ED,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:00:56.884580+00:00
+EFX,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:01:04.648572+00:00
+EG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:01:05.148754+00:00
+EIX,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:01:05.648908+00:00
+EL,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:01:13.402151+00:00
+ELV,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:01:21.142166+00:00
+EME,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:01:28.839507+00:00
+EMR,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T21:01:36.681302+00:00
+EQIX,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:01:39.036105+00:00
+EQT,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:01:46.783786+00:00
+ERIE,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:01:47.283977+00:00
+ES,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:01:47.784112+00:00
+ESS,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:01:48.284255+00:00
+ETN,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:01:56.200823+00:00
+ETR,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:01:56.701041+00:00
+EVRG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:01:57.201214+00:00
+EW,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:02:04.826838+00:00
+EXC,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:02:05.327026+00:00
+EXPD,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:02:14.603016+00:00
+EXPE,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:02:22.312855+00:00
+EXR,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:02:22.813046+00:00
+F,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:02:33.593411+00:00
+FANG,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:02:41.487085+00:00
+FAST,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:02:49.593471+00:00
+FDS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:02:51.853262+00:00
+FDX,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-05-31=OK,2025-05-31=OK,2024-05-31=OK,2023-05-31=OK,2022-05-31=NA",2026-11-18T21:02:59.572841+00:00
+FDXF,Industrials,Error,Insufficient daily price history,2026-11-18T21:03:06.233168+00:00
+FE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:03:06.733320+00:00
+FICO,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T21:03:17.634245+00:00
+FIS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:03:18.134414+00:00
+FISV,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:03:18.634567+00:00
+FITB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:03:19.134726+00:00
+FIX,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:03:26.837547+00:00
+FLEX,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-03-31=OK,2025-03-31=OK,2024-03-31=OK,2023-03-31=OK,2022-03-31=NA",2026-11-18T21:03:34.355855+00:00
+FOX,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:03:42.009407+00:00
+FOXA,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:03:49.671126+00:00
+FRT,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:03:50.171335+00:00
+FSLR,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:03:57.822826+00:00
+FTNT,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:04:05.338970+00:00
+FTV,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:04:13.133387+00:00
+GD,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:04:21.188722+00:00
+GDDY,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:04:28.857041+00:00
+GE,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:04:36.640600+00:00
+GEHC,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:04:47.347225+00:00
+GEN,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-03-31=OK,2025-03-31=OK,2024-03-31=OK,2023-03-31=OK,2022-03-31=NA",2026-11-18T21:04:55.142099+00:00
+GILD,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:05:04.507550+00:00
+GIS,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-05-31=OK,2025-05-31=OK,2024-05-31=OK,2023-05-31=OK,2022-05-31=NA",2026-11-18T21:05:12.283164+00:00
+GL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:05:12.783365+00:00
+GLW,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:05:20.649493+00:00
+GM,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:05:28.448462+00:00
+GNRC,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:05:35.997570+00:00
+GOOG,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:05:43.803753+00:00
+GOOGL,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:05:51.553940+00:00
+GPC,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:05:59.249822+00:00
+GPN,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:05:59.750011+00:00
+GRMN,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:06:07.413684+00:00
+GS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:06:07.913888+00:00
+GWW,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:06:15.505997+00:00
+HAL,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:06:23.166124+00:00
+HAS,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:06:30.952689+00:00
+HBAN,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:06:31.452879+00:00
+HD,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T21:06:40.819572+00:00
+HIG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:06:41.319755+00:00
+HII,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:06:48.948781+00:00
+HLT,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:06:56.609549+00:00
+HON,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:07:04.517557+00:00
+HONA,Industrials,Error,Insufficient daily price history,2026-11-18T21:07:14.245538+00:00
+HOOD,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:07:14.745703+00:00
+HSIC,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:07:27.744026+00:00
+HST,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:07:28.244235+00:00
+HSY,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:07:36.036783+00:00
+HUBB,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:07:43.804789+00:00
+HUM,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:07:51.704973+00:00
+HWM,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:07:59.434696+00:00
+IBKR,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:07:59.934885+00:00
+IBM,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:08:07.823788+00:00
+ICE,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:08:08.323975+00:00
+IDXX,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:08:15.968922+00:00
+IEX,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:08:23.765909+00:00
+IFF,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:08:31.450780+00:00
+ILMN,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:08:39.028997+00:00
+INCY,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:08:46.811693+00:00
+INTC,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:08:54.552336+00:00
+INTU,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-07-31=OK,2025-07-31=OK,2024-07-31=OK,2023-07-31=OK,2022-07-31=NA",2026-11-18T21:09:02.178898+00:00
+INVH,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:09:02.679108+00:00
+IP,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:09:10.417861+00:00
+IQV,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:09:17.998672+00:00
+IR,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:09:25.973341+00:00
+IRM,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:09:29.441867+00:00
+ISRG,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:09:37.189846+00:00
+IT,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:09:44.988785+00:00
+ITW,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:09:52.671777+00:00
+IVZ,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:09:53.171971+00:00
+JBHT,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:10:02.533581+00:00
+JBL,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-08-31=OK,2025-08-31=OK,2024-08-31=OK,2023-08-31=OK,2022-08-31=NA",2026-11-18T21:10:10.185690+00:00
+JCI,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T21:10:18.272001+00:00
+JKHY,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:10:18.772208+00:00
+JPM,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:10:21.024766+00:00
+KDP,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:10:28.615301+00:00
+KEY,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:10:29.115498+00:00
+KHC,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:10:38.446738+00:00
+KIM,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:10:38.946906+00:00
+KKR,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:10:39.447051+00:00
+KLAC,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:10:47.256139+00:00
+KMB,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:10:54.883587+00:00
+KMI,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:11:02.521082+00:00
+KR,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T21:11:12.226209+00:00
+L,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:11:12.726392+00:00
+LDOS,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:11:20.320694+00:00
+LEN,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-11-30=OK,2024-11-30=OK,2023-11-30=OK,2022-11-30=OK,2021-11-30=NA",2026-11-18T21:11:31.050125+00:00
+LH,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:11:38.916123+00:00
+LHX,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:11:46.795890+00:00
+LII,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:11:54.644228+00:00
+LIN,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:12:02.474647+00:00
+LITE,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:12:10.132985+00:00
+LLY,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:12:17.828586+00:00
+LMT,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:12:25.624708+00:00
+LNT,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:12:26.124921+00:00
+LOW,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T21:12:33.846375+00:00
+LRCX,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:12:41.513970+00:00
+LULU,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T21:12:49.107916+00:00
+LUV,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:12:56.791139+00:00
+LVS,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:13:04.466104+00:00
+LYB,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:13:12.258400+00:00
+LYV,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:13:20.018223+00:00
+MA,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:13:20.518415+00:00
+MAA,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:13:21.018570+00:00
+MAR,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:13:28.791495+00:00
+MAS,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:13:37.029049+00:00
+MCD,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:13:44.759667+00:00
+MCHP,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-03-31=OK,2025-03-31=OK,2024-03-31=OK,2023-03-31=OK,2022-03-31=NA",2026-11-18T21:13:52.452599+00:00
+MCK,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-03-31=OK,2025-03-31=OK,2024-03-31=OK,2023-03-31=OK,2022-03-31=NA",2026-11-18T21:14:00.293834+00:00
+MCO,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:14:00.794026+00:00
+MDT,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-04-30=OK,2025-04-30=OK,2024-04-30=OK,2023-04-30=OK,2022-04-30=NA",2026-11-18T21:14:13.336290+00:00
+MET,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:14:13.836484+00:00
+META,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:14:21.374593+00:00
+MGM,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:14:28.913526+00:00
+MKC,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-11-30=OK,2024-11-30=OK,2023-11-30=OK,2022-11-30=OK,2021-11-30=NA",2026-11-18T21:14:36.508757+00:00
+MLM,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:14:44.372797+00:00
+MMM,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:14:52.367807+00:00
+MO,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:15:02.179622+00:00
+MOS,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:15:10.138769+00:00
+MPC,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:15:17.959255+00:00
+MPWR,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:15:25.567442+00:00
+MRK,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:15:33.602695+00:00
+MRNA,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:15:41.241847+00:00
+MRSH,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:15:41.742031+00:00
+MRVL,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T21:15:49.303058+00:00
+MS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:15:49.803237+00:00
+MSCI,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:15:50.303383+00:00
+MSFT,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:15:58.286544+00:00
+MSI,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:16:06.628229+00:00
+MTB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:16:07.128416+00:00
+MTD,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:16:14.773752+00:00
+MU,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-08-31=OK,2025-08-31=OK,2024-08-31=OK,2023-08-31=OK,2022-08-31=NA",2026-11-18T21:16:22.455890+00:00
+NCLH,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:16:30.233797+00:00
+NDAQ,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:16:30.733943+00:00
+NEE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:16:36.088046+00:00
+NEM,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:16:43.799951+00:00
+NFLX,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:16:51.567502+00:00
+NI,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:16:52.067690+00:00
+NKE,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-05-31=OK,2025-05-31=OK,2024-05-31=OK,2023-05-31=OK,2022-05-31=NA",2026-11-18T21:17:00.058979+00:00
+NOC,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:17:07.859233+00:00
+NOW,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:17:15.441383+00:00
+NRG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:17:15.941573+00:00
+NSC,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:17:23.646678+00:00
+NTAP,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-04-30=OK,2025-04-30=OK,2024-04-30=OK,2023-04-30=OK,2022-04-30=NA",2026-11-18T21:17:31.621498+00:00
+NTRS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:17:32.121678+00:00
+NVDA,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T21:17:41.620755+00:00
+NVR,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:17:49.206525+00:00
+NWS,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:17:57.037567+00:00
+NWSA,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:18:04.857138+00:00
+NXPI,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:18:12.531454+00:00
+O,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:18:13.031623+00:00
+ODFL,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:18:20.650724+00:00
+OKE,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:18:28.647035+00:00
+OKTA,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T21:18:36.325899+00:00
+OMC,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:18:44.490434+00:00
+ON,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:18:52.060760+00:00
+ORCL,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-05-31=OK,2025-05-31=OK,2024-05-31=OK,2023-05-31=OK,2022-05-31=NA",2026-11-18T21:19:00.041656+00:00
+ORLY,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:19:10.848615+00:00
+OTIS,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:19:18.479265+00:00
+OXY,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:19:26.214411+00:00
+P,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T21:19:33.781634+00:00
+PANW,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-07-31=OK,2025-07-31=OK,2024-07-31=OK,2023-07-31=OK,2022-07-31=NA",2026-11-18T21:19:41.538148+00:00
+PAYX,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-05-31=OK,2025-05-31=OK,2024-05-31=OK,2023-05-31=OK,2022-05-31=NA",2026-11-18T21:19:50.019252+00:00
+PCAR,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:19:58.343499+00:00
+PCG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:19:58.843702+00:00
+PEG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:19:59.343853+00:00
+PEP,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:20:07.280629+00:00
+PFE,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:20:15.107456+00:00
+PFG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:20:15.607665+00:00
+PG,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:20:23.382084+00:00
+PGR,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:20:23.882247+00:00
+PH,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:20:31.686176+00:00
+PHM,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:20:39.496926+00:00
+PKG,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:20:47.098548+00:00
+PLD,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:20:47.598734+00:00
+PLTR,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:20:55.216494+00:00
+PM,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:21:02.952416+00:00
+PNC,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:21:03.452591+00:00
+PNR,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:21:11.208407+00:00
+PNW,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:21:11.708598+00:00
+PODD,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:21:19.396210+00:00
+PPG,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:21:27.038084+00:00
+PPL,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:21:30.512645+00:00
+PRU,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:21:31.012793+00:00
+PSA,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:21:31.512935+00:00
+PWR,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:21:42.933844+00:00
+PYPL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:21:43.434036+00:00
+QCOM,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T21:21:52.887436+00:00
+RCL,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:22:00.586445+00:00
+RDDT,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:22:08.216701+00:00
+REG,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:22:08.716891+00:00
+REGN,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:22:16.338771+00:00
+RF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:22:16.838957+00:00
+RJF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:22:17.339106+00:00
+RL,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-03-31=OK,2025-03-31=OK,2024-03-31=OK,2023-03-31=OK,2022-03-31=NA",2026-11-18T21:22:25.170980+00:00
+RMD,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:22:32.833689+00:00
+ROK,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T21:22:40.662653+00:00
+ROL,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:22:48.314775+00:00
+ROP,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:22:56.063282+00:00
+ROST,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T21:23:03.765039+00:00
+RSG,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:23:11.412236+00:00
+RTX,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:23:19.310846+00:00
+RVTY,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:23:27.015514+00:00
+SBAC,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:23:27.515706+00:00
+SBUX,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T21:23:38.345358+00:00
+SCHW,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:23:38.845543+00:00
+SHW,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:23:46.576124+00:00
+SJM,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-04-30=OK,2025-04-30=OK,2024-04-30=OK,2023-04-30=OK,2022-04-30=NA",2026-11-18T21:23:54.552150+00:00
+SKYD,Communication Services,Error,Stale annual FCF statements,2026-11-18T21:24:02.221952+00:00
+SLB,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:24:10.079970+00:00
+SMCI,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:24:17.823038+00:00
+SNA,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:24:25.534085+00:00
+SNDK,Information Technology,Error,Non-positive normalized FCF,2026-11-18T21:24:33.142347+00:00
+SO,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:24:35.277371+00:00
+SOLV,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:24:42.998947+00:00
+SPG,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:24:43.499134+00:00
+SPGI,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:24:43.999291+00:00
+SRE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:24:44.499446+00:00
+STE,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-03-31=OK,2025-03-31=OK,2024-03-31=OK,2023-03-31=OK,2022-03-31=NA",2026-11-18T21:24:52.199665+00:00
+STLD,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:25:00.041738+00:00
+STT,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:25:00.541931+00:00
+STX,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:25:08.268155+00:00
+STZ,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-02-28=OK,2025-02-28=OK,2024-02-29=OK,2023-02-28=OK,2022-02-28=NA",2026-11-18T21:25:15.914910+00:00
+SW,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:25:23.589929+00:00
+SWK,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:25:31.565571+00:00
+SWKS,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T21:25:39.319896+00:00
+SYF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:25:39.820090+00:00
+SYK,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:25:47.501503+00:00
+SYY,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:25:58.459179+00:00
+T,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:26:06.303269+00:00
+TDG,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T21:26:13.933041+00:00
+TDY,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:26:21.493064+00:00
+TECH,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:26:29.308227+00:00
+TEL,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T21:26:37.508042+00:00
+TER,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:26:45.216430+00:00
+TFC,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:26:45.716614+00:00
+TGT,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T21:26:53.625040+00:00
+TJX,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T21:27:01.231550+00:00
+TKO,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:27:08.973905+00:00
+TMO,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:27:16.718036+00:00
+TMUS,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:27:24.460084+00:00
+TPL,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:27:32.101978+00:00
+TPR,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:27:39.833742+00:00
+TRGP,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:27:47.709130+00:00
+TRMB,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:27:55.284545+00:00
+TROW,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:27:55.784729+00:00
+TRV,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:27:56.284881+00:00
+TSCO,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:28:03.907806+00:00
+TSLA,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:28:11.503254+00:00
+TSN,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-09-30=OK,2025-09-30=OK,2024-09-30=OK,2023-09-30=OK,2022-09-30=NA",2026-11-18T21:28:19.343486+00:00
+TT,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:28:27.101116+00:00
+TTWO,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-03-31=OK,2025-03-31=OK,2024-03-31=OK,2023-03-31=OK,2022-03-31=NA",2026-11-18T21:28:34.624501+00:00
+TWLO,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:28:42.237231+00:00
+TXN,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:28:52.978378+00:00
+TXT,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:29:00.784973+00:00
+TYL,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:29:08.348432+00:00
+UAL,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:29:15.894240+00:00
+UBER,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:29:23.557306+00:00
+UDR,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:29:24.057509+00:00
+UHS,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:29:31.789613+00:00
+ULTA,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T21:29:39.405517+00:00
+UNH,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:29:47.241424+00:00
+UNP,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:29:54.918692+00:00
+UPS,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:30:02.677789+00:00
+URI,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:30:10.323877+00:00
+USB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:30:10.824067+00:00
+V,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:30:11.324223+00:00
+VEEV,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T21:30:18.925775+00:00
+VICI,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:30:19.425962+00:00
+VLO,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:30:27.273977+00:00
+VLTO,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:30:35.110525+00:00
+VMC,Materials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:30:42.843014+00:00
+VMRK,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:30:43.343230+00:00
+VRSK,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:30:51.016545+00:00
+VRSN,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:30:58.646677+00:00
+VRT,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:31:06.526870+00:00
+VRTX,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:31:14.174863+00:00
+VST,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:31:14.675068+00:00
+VTR,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:31:18.154007+00:00
+VTRS,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:31:26.180305+00:00
+VYLR,Consumer Staples,Error,Insufficient daily price history,2026-11-18T21:31:32.880848+00:00
+VZ,Communication Services,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:31:40.674757+00:00
+WAB,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:31:48.420278+00:00
+WAT,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:31:56.114121+00:00
+WDAY,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T21:32:03.842732+00:00
+WDC,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-06-30=OK,2025-06-30=OK,2024-06-30=OK,2023-06-30=OK,2022-06-30=NA",2026-11-18T21:32:11.516815+00:00
+WEC,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:32:12.017007+00:00
+WELL,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:32:12.517160+00:00
+WFC,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:32:13.017331+00:00
+WM,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:32:20.763547+00:00
+WMB,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:32:28.628754+00:00
+WMT,Consumer Staples,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T21:32:36.643130+00:00
+WRB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:32:37.143337+00:00
+WSM,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2026-01-31=OK,2025-01-31=OK,2024-01-31=OK,2023-01-31=OK,2022-01-31=NA",2026-11-18T21:32:44.777412+00:00
+WST,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:32:52.671411+00:00
+WTW,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:32:53.171600+00:00
+WY,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:32:53.671750+00:00
+WYNN,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:33:01.243490+00:00
+XEL,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:33:01.743656+00:00
+XOM,Energy,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:33:09.455894+00:00
+XYL,Industrials,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:33:17.182459+00:00
+XYZ,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-18T21:33:17.682646+00:00
+YUM,Consumer Discretionary,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:33:25.335124+00:00
+ZBH,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:33:36.173113+00:00
+ZBRA,Information Technology,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:33:43.739565+00:00
+ZTS,Health Care,Error,"Insufficient consecutive annual FCF history (<3 years); found=5; dates=2025-12-31=OK,2024-12-31=OK,2023-12-31=OK,2022-12-31=OK,2021-12-31=NA",2026-11-18T21:33:51.670698+00:00
