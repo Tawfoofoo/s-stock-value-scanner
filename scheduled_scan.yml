@@ -1,0 +1,84 @@
+name: Scheduled US stock scan V6
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 12 * * 2-6'
+permissions:
+  contents: write
+concurrency:
+  group: stock-scan
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Scan complete universe
+        env:
+          BATCH_SIZE: '25'
+          SCAN_DELAY: '0.5'
+        run: |
+          mkdir -p data
+          echo 0 > data/scan_state.txt
+          rm -f data/latest_scan.csv data/scan_errors.csv data/scan_report.json
+          completed=false
+          for batch in $(seq 1 30); do
+            python scan_batch.py
+            if [ "$(cat data/scan_state.txt)" = "0" ]; then
+              completed=true
+              break
+            fi
+            sleep 2
+          done
+          test "$completed" = true
+          python - <<'PYCODE'
+          import json
+          r=json.load(open('data/scan_report.json'))
+          assert r['complete'] and r['processed']==r['universe'],r
+          PYCODE
+      - name: Commit results before LINE
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          mkdir -p /tmp/stock-scan-results
+          cp data/latest_scan.csv data/scan_state.txt data/scan_report.json /tmp/stock-scan-results/
+          if [ -f data/scan_errors.csv ]; then cp data/scan_errors.csv /tmp/stock-scan-results/; fi
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/stock-scan-results/latest_scan.csv /tmp/stock-scan-results/scan_state.txt /tmp/stock-scan-results/scan_report.json data/
+            if [ -f /tmp/stock-scan-results/scan_errors.csv ]; then cp /tmp/stock-scan-results/scan_errors.csv data/; else rm -f data/scan_errors.csv; fi
+            git add -A -- data/latest_scan.csv data/scan_state.txt data/scan_report.json
+            if [ -f data/scan_errors.csv ]; then git add -f data/scan_errors.csv; else git add -u -- data/scan_errors.csv 2>/dev/null || true; fi
+            if git diff --cached --quiet; then break; fi
+            git commit -m 'Update V6 automated scan'
+            if git push origin HEAD:main; then break; fi
+            if [ "$attempt" = 5 ]; then exit 1; fi
+            sleep 5
+          done
+      - name: Send LINE report
+        env:
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+          LINE_TO_USER_ID: ${{ secrets.LINE_USER_ID }}
+          LINE_MIN_UPSIDE: '20'
+          LINE_MIN_QUALITY: '70'
+        run: python line_alert.py
+      - name: Commit LINE state
+        run: |
+          git add -f data/line_alert_state.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update V6 LINE alert state'
+            for attempt in 1 2 3 4 5; do
+              git fetch origin main
+              if git rebase origin/main && git push origin HEAD:main; then exit 0; fi
+              git rebase --abort 2>/dev/null || true
+              if [ "$attempt" = 5 ]; then exit 1; fi
+              sleep 5
+            done
+          fi

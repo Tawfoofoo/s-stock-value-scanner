@@ -1,20 +1,9 @@
-# US Stock Value Scanner V4 — Phase A
+# US Stock Value Scanner V6 Final
 
-Streamlit Community Cloud app, S&P 500 constituent list, batch scan, MOS >=20%, CDC ActionZone, and a scheduled GitHub Actions batch job.
+Replace `app.py`, `engine.py`, `scan_batch.py`, `line_alert.py`, and `.github/workflows/scheduled_scan.yml` in the existing repository with these files. Keep existing `universe.py` and `requirements.txt` (ensure `streamlit`, `yfinance`, `numpy`, `pandas`, `plotly`, `requests` are installed). Workflow assumes the default branch is `main`.
 
-## Files
-- `streamlit_app.py` — Streamlit dashboard (set as main file on Community Cloud)
-- `engine.py` — DCF + CDC + proxy + preliminary sector checks
-- `universe.py` — S&P 500 constituents (community dataset, Wikipedia fallback)
-- `scan_batch.py` — scheduled batch job
-- `requirements.txt` — dependencies
-- `.github/workflows/daily-scan.yml` — scheduled GitHub Actions job
+Criteria: Base Fair Price DCF Upside >=20%; Quality Score >=70/100; Confidence Medium/High. MOS is displayed for reference only. Special sectors are excluded from generic FCF DCF and explicitly reported. Quality and confidence are heuristic scores, not verified investment-grade ratings. This package has not been tested against live Yahoo Finance, GitHub Actions, or LINE credentials.
 
-## Important
-1. **Phase A covers S&P 500 only.** S&P 400 and 600 will be added in later phases after sourcing a validated constituent list.
-2. GitHub Actions runs a **10-symbol batch** per scheduled run, not all 500 at once. It rotates over the universe; approximately 50 scheduled trading-day runs are needed to cover 500 symbols, assuming no data failures. CSV is incremental, and entries may be stale; inspect `Scanned UTC`.
-3. Sectors Financials, Real Estate, Utilities are **Special Review**; no sector-specific valuation is implemented yet. Sector thresholds for other groups are **ROE/D-E proxies**, not true ROIC or net-debt/EBITDA.
-4. Scheduled results are committed to the repo; this requires GitHub Actions permission to write repository contents. Enable Settings > Actions > General > Workflow permissions > Read and write permissions, if allowed. GitHub may pause scheduled workflows on inactive public repos; rate limits may occur.
-5. For an existing app using `app.py`, either change the Streamlit main file to `streamlit_app.py` in the app settings, or rename `streamlit_app.py` to `app.py` in GitHub.
-6. The app's manual scan is per-batch and results stay in the current browser session; the scheduled CSV persists in GitHub. The app does **not** automatically scan all 500 on each visit.
-7. Data from yfinance and third-party constituent lists are unofficial, may be delayed, and should be independently verified. This is research software, not financial advice.
+**Important:** The workflow resets prior scan outputs at the start of a run; only completed runs are committed. A completed run means every ticker is accounted for (including Special Review / errors), not that every ticker has a fair value. LINE deduplication uses state and LINE retry keys; exactly-once delivery across failures cannot be guaranteed. Historical state from V4 is reused for eligibility tracking. To avoid suppressing first V6 notifications, optionally archive the previous `data/line_alert_state.json` before first run.
+
+**Financial limitations:** Generic FCF DCF is unsuitable for some companies and industries. DCF is highly sensitive to normalized FCF, discount rate, terminal growth, net debt and diluted shares. Yahoo statements may have missing/changed labels; results require human verification. `Quality Score` uses simple available-data metrics and assigns zero for missing evidence; it is not a professional fundamental rating. CDC is a timing aid only.

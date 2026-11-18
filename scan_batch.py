@@ -1,136 +1,54 @@
-
-"""Resumable S&P 500 batch scanner."""
-
-import os
-import time
-from pathlib import Path
+"""One resumable batch; workflow resets state before each full run."""
+import json, os, time
 from datetime import datetime, timezone
-
+from pathlib import Path
 import pandas as pd
-
 from universe import load_sp500
 from engine import evaluate
 
-OUT = Path("data")
-OUT.mkdir(exist_ok=True)
-
-CSV = OUT / "latest_scan.csv"
-STATE = OUT / "scan_state.txt"
-ERRORS = OUT / "scan_errors.csv"
-
-BATCH_SIZE = max(
-    1, min(100, int(os.getenv("BATCH_SIZE", "25")))
-)
-DELAY = max(
-    0, float(os.getenv("SCAN_DELAY", "0.5"))
-)
-
-constituents, source = load_sp500()
-total = len(constituents)
-
-start = 0
-if STATE.exists():
-    try:
-        start = int(STATE.read_text().strip())
-    except ValueError:
-        start = 0
-
-if start < 0 or start >= total:
-    start = 0
-
-batch = constituents.iloc[start:start + BATCH_SIZE]
-
-rows = []
-errors = []
-
-print(
-    f"Scanning {start + 1} to "
-    f"{start + len(batch)} of {total}",
-    flush=True
-)
-
+OUT=Path('data'); OUT.mkdir(exist_ok=True)
+CSV=OUT/'latest_scan.csv'; STATE=OUT/'scan_state.txt'; ERRORS=OUT/'scan_errors.csv'
+SIZE=max(1,min(100,int(os.getenv('BATCH_SIZE','25'))))
+DELAY=max(0,float(os.getenv('SCAN_DELAY','0.5')))
+members,source=load_sp500(); total=len(members)
+start=int(STATE.read_text().strip()) if STATE.exists() else 0
+if not 0<=start<total: start=0
+batch=members.iloc[start:start+SIZE]
+rows=[]; errors=[]
 for item in batch.itertuples(index=False):
-    ticker = str(item.Symbol)
-
-    try:
-        row, _ = evaluate(
-            ticker,
-            .10, .10, .025,
-            15, 15, 1,
-            str(item.Sector)
-        )
-
-        row["Scanned UTC"] = (
-            datetime.now(timezone.utc).isoformat()
-        )
-
-        rows.append(row)
-        print("OK", ticker, flush=True)
-
-    except Exception as exc:
-        errors.append({
-            "Ticker": ticker,
-            "Reason": str(exc),
-            "Scanned UTC": (
-                datetime.now(timezone.utc).isoformat()
-            )
-        })
-
-        print(
-            "SKIP", ticker, str(exc),
-            flush=True
-        )
-
+    ticker=str(item.Symbol)
+    for attempt in range(3):
+        try:
+            row,_=evaluate(ticker,.10,.10,.025,20,70,1.0,str(item.Sector))
+            row['Scanned UTC']=datetime.now(timezone.utc).isoformat()
+            rows.append(row)
+            print('OK',ticker,flush=True)
+            break
+        except Exception as exc:
+            message=str(exc)
+            if message.startswith('Special Review:') or attempt==2:
+                errors.append({'Ticker':ticker,'Sector':str(item.Sector),'Status':'Special Review' if message.startswith('Special Review:') else 'Error','Reason':message,'Scanned UTC':datetime.now(timezone.utc).isoformat()})
+                print('SKIP',ticker,message,flush=True)
+                break
+            time.sleep(2*(attempt+1))
     time.sleep(DELAY)
 
-if rows:
-    fresh = pd.DataFrame(rows)
-
-    if CSV.exists():
-        old = pd.read_csv(CSV)
-        fresh = pd.concat(
-            [old, fresh],
-            ignore_index=True
-        )
-
-    fresh = fresh.drop_duplicates(
-        "Ticker", keep="last"
-    )
-
-    fresh.to_csv(CSV, index=False)
-
-if errors:
-    fresh_errors = pd.DataFrame(errors)
-
-    if ERRORS.exists():
-        old_errors = pd.read_csv(ERRORS)
-        fresh_errors = pd.concat(
-            [old_errors, fresh_errors],
-            ignore_index=True
-        )
-
-    fresh_errors = fresh_errors.drop_duplicates(
-        "Ticker", keep="last"
-    )
-
-    fresh_errors.to_csv(ERRORS, index=False)
-
-next_index = start + len(batch)
-
-if next_index >= total:
-    next_index = 0
-    print("Completed one full S&P 500 cycle")
-
-STATE.write_text(
-    str(next_index),
-    encoding="utf-8"
-)
-
-print(
-    f"Processed {len(batch)}; "
-    f"saved {len(rows)}; "
-    f"errors {len(errors)}; "
-    f"next index {next_index}; "
-    f"source {source}",
-    flush=True
-)
+def append_unique(path,records):
+    if not records: return
+    frame=pd.DataFrame(records)
+    if path.exists(): frame=pd.concat([pd.read_csv(path),frame],ignore_index=True)
+    frame.drop_duplicates('Ticker',keep='last').to_csv(path,index=False)
+append_unique(CSV,rows)
+append_unique(ERRORS,errors)
+next_index=start+len(batch)
+complete=next_index>=total
+STATE.write_text(str(0 if complete else next_index),encoding='utf-8')
+print(f'Processed {len(batch)}, success {len(rows)}, special/errors {len(errors)}, complete={complete}, source={source}',flush=True)
+if complete:
+    successful=pd.read_csv(CSV) if CSV.exists() else pd.DataFrame()
+    failed=pd.read_csv(ERRORS) if ERRORS.exists() else pd.DataFrame()
+    observed=set(successful.get('Ticker',pd.Series(dtype=str)).astype(str))|set(failed.get('Ticker',pd.Series(dtype=str)).astype(str))
+    universe=set(members.Symbol.astype(str))
+    report={'timestamp_utc':datetime.now(timezone.utc).isoformat(),'universe':len(universe),'evaluated':len(successful),'special_review':int((failed.get('Status',pd.Series(dtype=str))=='Special Review').sum()),'errors':int((failed.get('Status',pd.Series(dtype=str))=='Error').sum()),'processed':len(observed),'missing':sorted(universe-observed),'source':str(source),'complete':observed==universe}
+    (OUT/'scan_report.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+    if not report['complete']: raise RuntimeError('Scan coverage incomplete: '+str(report['missing'][:10]))
