@@ -18,17 +18,43 @@ def first(*values):
             return v
     return None
 
+
 def row_values(frame, names):
     if frame is None or frame.empty:
         return []
+
+    # Sort annual statements: newest first.
+    frame = frame.copy()
+    dates = pd.to_datetime(
+        frame.columns, errors="coerce", utc=True
+    )
+
+    if dates.isna().any():
+        raise ValueError(
+            "Cannot verify financial statement dates"
+        )
+
+    order = np.argsort(dates.asi8)[::-1]
+    frame = frame.iloc[:, order]
+
     for name in names:
         if name in frame.index:
             s = frame.loc[name]
+
             if isinstance(s, pd.DataFrame):
                 s = s.iloc[0]
-            vals = pd.to_numeric(s, errors="coerce").dropna()
-            return [float(v) for v in vals if num(v) is not None]
+
+            # Preserve missing years as NaN rather than
+            # silently shifting the remaining observations.
+            return [
+                num(v)
+                for v in pd.to_numeric(
+                    s, errors="coerce"
+                )
+            ]
+
     return []
+
 
 def latest(frame, names):
     v = row_values(frame, names)
