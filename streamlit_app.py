@@ -6,9 +6,17 @@ import streamlit as st
 from engine import evaluate, history, indicators
 from universe import load_sp500
 
-st.set_page_config(page_title='US Stock Value Scanner V4', page_icon='📈', layout='wide')
-st.title('📈 US Stock Value Scanner V4')
-st.caption('S&P 500 → S&P Composite 1500 (phased) • MOS ≥ 20% • CDC ActionZone • educational only')
+st.set_page_config(
+    page_title='US Stock Value Scanner V5',
+    page_icon='📈',
+    layout='wide'
+)
+
+st.title('📈 US Stock Value Scanner V5')
+st.caption(
+    'S&P 500 • MOS ≥ 15% • '
+    'DCF Valuation • Quality Analysis • CDC ActionZone'
+)
 
 @st.cache_data(ttl=86400, show_spinner=False)
 def universe():
@@ -36,7 +44,7 @@ with st.sidebar:
         symbols = st.text_area('Tickers', 'AAPL,MSFT,ADBE')
         requested = list(dict.fromkeys(s.strip().upper().replace('.', '-') for s in symbols.replace('\n', ',').split(',') if s.strip()))[:30]
         selection = pd.DataFrame({'Symbol': requested}).merge(members, on='Symbol', how='left').fillna({'Sector':'Unknown'})
-    mos_min = st.slider('MOS ขั้นต่ำ (%)', 0, 50, 20)
+    mos_min = st.slider('MOS ขั้นต่ำ (%)', 0, 50, 15)
     growth_cap = st.slider('เพดาน FCF growth (%)', 0, 25, 10)/100
     rate = st.slider('Discount rate (%)', 7.0, 18.0, 10.0, .5)/100
     terminal = st.slider('Terminal growth (%)', 0.0, 4.0, 2.5, .5)/100
