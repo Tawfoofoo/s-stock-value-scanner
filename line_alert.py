@@ -68,7 +68,10 @@ def main():
     for i,message in enumerate(chunks(lines)):
         retry_key=hashlib.sha256(f'{stamp}:{i}:{message}'.encode()).hexdigest()[:32]
         resp=requests.post(API,headers={'Authorization':f'Bearer {token}','Content-Type':'application/json','X-Line-Retry-Key':retry_key},json={'to':uid,'messages':[{'type':'text','text':message}]},timeout=25)
-        if resp.status_code not in (200,409): resp.raise_for_status()
+        if resp.status_code not in (200, 409):
+    print("LINE API status:", resp.status_code)
+    print("LINE API response:", resp.text)
+    resp.raise_for_status()
         print('Sent chunk',i+1,flush=True)
     STATE.parent.mkdir(parents=True,exist_ok=True)
     tmp=STATE.with_suffix('.tmp')
