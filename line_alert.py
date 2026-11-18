@@ -1,5 +1,5 @@
 """V6 LINE daily report + new eligible and CDC signals."""
-import hashlib
+import uuid
 import json
 import os
 from pathlib import Path
@@ -134,7 +134,12 @@ def main():
 
     # Stable retry keys help prevent duplicate delivery when the same report is retried.
     for i, message in enumerate(chunks(lines)):
-        retry_key = hashlib.sha256(f'{stamp}:{i}:{message}'.encode()).hexdigest()[:32]
+        retry_key = str(
+    uuid.uuid5(
+        uuid.NAMESPACE_URL,
+        f'US-Stock-Value-Scanner-V6:{stamp}:{i}:{message}'
+    )
+)
         resp = requests.post(
             API,
             headers={
