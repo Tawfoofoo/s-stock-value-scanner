@@ -1,18 +1,20 @@
 {
   "value_alerted": [
     "ACN",
-    "ADBE",
     "AOS",
     "APTV",
+    "CF",
     "CI",
-    "CMCSA",
-    "CTSH",
     "DECK",
     "EXPE",
     "FOX",
+    "LEN",
     "LULU",
-    "PHM",
-    "T"
+    "NKE",
+    "NVR",
+    "NWS",
+    "OXY"
   ],
-  "buy_alerted": []
+  "buy_alerted": [],
+  "last_report": "2026-11-18T14:11:15.502800+00:00"
 }
