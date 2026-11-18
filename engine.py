@@ -106,7 +106,58 @@ def technical(d):
     score = sum([a.CDC_zone=='Green',bool(a.Close>a.EMA50),bool(a.MACD_hist>b.MACD_hist),rsi is not None and 40<=rsi<=70,proxy=='Accumulation',vr is not None and vr>=1])
     return {'CDC Zone':str(a.CDC_zone),'CDC Buy today':bool(a.CDC_buy),'CDC Sell today':bool(a.CDC_sell),'CDC Trend':'Bullish' if a.CDC_trend==1 else 'Bearish' if a.CDC_trend==-1 else 'Undefined','Smart Money Proxy':proxy,'RSI':rsi,'MFI':mfi,'CMF':cmf,'Volume / 20d':vr,'Technical Score':score}
 
-def dcf(fcf,cash,debt,shares,growth,terminal,rate):
+
+def dcf(fcf, cash, debt, shares, growth, terminal, rate):
+    """
+    Indicative equity cash-flow DCF.
+
+    Assumes the supplied FCF approximates cash flow
+    available to equity holders after interest expense.
+
+    Uses an assumed cost of equity, NOT WACC.
+    Cash and debt are not adjusted again to avoid
+    double-counting financing claims.
+
+    This is a screening estimate, not a full FCFE model.
+    """
+    values = (fcf, shares, growth, terminal, rate)
+
+    if not all(math.isfinite(x) for x in values):
+        return None
+
+    if fcf <= 0 or shares <= 0:
+        return None
+
+    if growth <= -1 or terminal <= -1:
+        return None
+
+    if rate <= terminal:
+        return None
+
+    projected_fcf = [
+        fcf * (1 + growth) ** year
+        for year in range(1, 6)
+    ]
+
+    present_value = sum(
+        flow / (1 + rate) ** year
+        for year, flow in enumerate(projected_fcf, 1)
+    )
+
+    terminal_value = (
+        projected_fcf[-1] * (1 + terminal)
+        / (rate - terminal)
+    )
+
+    discounted_terminal = terminal_value / (1 + rate) ** 5
+
+    equity_value = present_value + discounted_terminal
+
+    if not math.isfinite(equity_value) or equity_value <= 0:
+        return None
+
+    return equity_value / shares
+
     if not all(math.isfinite(x) for x in (fcf,cash,debt,shares,growth,terminal,rate)) or fcf<=0 or shares<=0 or rate<=terminal:
         return None
     flows=[fcf*(1+growth)**i for i in range(1,6)]
