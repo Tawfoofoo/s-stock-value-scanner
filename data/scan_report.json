@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "2026-11-19T01:18:47.600141+00:00",
+  "universe": 503,
+  "evaluated": 347,
+  "special_review": 137,
+  "errors": 19,
+  "processed": 503,
+  "missing": [],
+  "source": "GitHub community dataset",
+  "complete": true
+}
