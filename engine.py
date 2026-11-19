@@ -1,10 +1,7 @@
-"""US Stock Value Scanner V6 — final maintenance fix.
+"""US Stock Value Scanner V6 — FCF history maintenance fix.
 
-Indicative equity cash-flow proxy DCF, not a full FCFE/FCFF valuation.
-Annual operating cash flow less capex is used as an equity cash-flow proxy;
-principal borrowing/repayment is not modeled. Cost of equity discounts this
-proxy; cash and debt are not added/subtracted again. Screening estimates only.
-Public evaluate() signature and result columns remain V6-compatible.
+Indicative equity cash-flow proxy DCF, not full FCFE/FCFF.
+Public evaluate() signature and output columns remain V6-compatible.
 """
 import math
 import numpy as np
@@ -35,7 +32,6 @@ def dated_values(frame, names):
     if dates.isna().any() or len(set(dates)) != len(dates):
         return {}
     result = {}
-    # Fill gaps across aliases; preserve the first available valid observation.
     for name in names:
         if name not in frame.index:
             continue
@@ -184,8 +180,12 @@ def quality_score(roe, de, fcf_values, revenue_values, earnings_values, cash_con
 
 
 def annual_series(values, count=5):
-    """Select latest contiguous annual observations, allowing 330–400 days."""
-    pairs = sorted(((pd.Timestamp(k), v) for k, v in values.items() if k != 'fallback'), reverse=True)
+    """Latest contiguous fiscal-year observations, including missing values.
+
+    Preserve the first missing year as a boundary, but do not require five years.
+    A 330–400-day interval accommodates leap years and fiscal date shifts.
+    """
+    pairs = sorted(((pd.Timestamp(k), num(v)) for k, v in values.items() if k != 'fallback'), reverse=True)
     if not pairs:
         return []
     result = [pairs[0]]
@@ -200,11 +200,7 @@ def annual_series(values, count=5):
 
 
 def annual_fcf_map(cf):
-    """Fill missing direct FCF observations with CFO minus absolute capex, by date.
-
-    A zero or negative FCF is a real observation, not a missing value.
-    No annual observations are fabricated or borrowed across years.
-    """
+    """Fill missing direct FCF with CFO minus absolute capex for the same year."""
     direct = dated_values(cf, ['Free Cash Flow', 'FreeCashFlow'])
     operating = dated_values(cf, ['Operating Cash Flow', 'Cash Flow From Continuing Operating Activities'])
     capex = dated_values(cf, ['Capital Expenditure', 'Capital Expenditures'])
@@ -216,17 +212,27 @@ def annual_fcf_map(cf):
 
 
 def fcf_history_or_error(fcf_map):
-    """Fail with actionable diagnostics, without relaxing three-year requirement."""
+    """Require >=3 latest contiguous valid years; older missing years are allowed.
+
+    Never skip an internal missing year or a missing latest year, which would
+    silently use stale/nonconsecutive data. Zero and negative values are valid
+    observations and remain subject to normalized FCF validation downstream.
+    """
     if not fcf_map:
         raise ValueError('Missing annual FCF (direct and CFO/capex unavailable)')
     series = annual_series(fcf_map)
-    if len(series) < 3 or any(v is None for _, v in series):
+    valid = []
+    for date, value in series:
+        if value is None:
+            break
+        valid.append((date, value))
+    if len(valid) < 3:
         dates = ','.join(f'{d.date()}={"NA" if v is None else "OK"}' for d, v in series)
-        raise ValueError(f'Insufficient consecutive annual FCF history (<3 years); found={len(series)}; dates={dates}')
-    last_date = series[0][0]
+        raise ValueError(f'Insufficient consecutive annual FCF history (<3 years); found={len(valid)}; dates={dates}')
+    last_date = valid[0][0]
     if (pd.Timestamp.now(tz='UTC').tz_localize(None) - last_date).days > 550:
         raise ValueError('Stale annual FCF statements')
-    return series
+    return valid
 
 
 def evaluate(symbol, growth_cap=.10, rate=.10, terminal=.025, min_upside=20,
