@@ -1,7 +1,14 @@
 """US Stock Value Scanner V6 — FCF history maintenance fix.
 
 Indicative equity cash-flow proxy DCF, not full FCFE/FCFF.
-Public evaluate() signature and output columns remain V6-compatible.
+Public evaluate() signature and output columns remain V6-compatible
+(one extra output column added: 'Flags').
+
+Changes in this revision (marked with  # CHANGED):
+  1. Bear/Bull scenarios use different starting FCF / terminal growth / rate,
+     instead of only shifting growth and discount rate on the same FCF.
+  2. Valuation Confidence is downgraded when warning flags fire
+     (growth capped, upside > 80%, volatile FCF).
 """
 import math
 import numpy as np
@@ -159,6 +166,25 @@ def dcf(fcf, cash, debt, shares, growth, terminal, rate):
     return value if math.isfinite(value) and value > 0 else None
 
 
+def scenario_values(normalized, recent, cash, debt, shares, growth, growth_cap, terminal, rate):  # CHANGED
+    """Bear / Base / Bull fair values.
+
+    Base : normalized FCF, observed growth (capped), rate, terminal.
+    Bear : weaker starting FCF (lowest recent year, or half of normalized if that
+           year was <= 0, then x0.85), growth -5pt, terminal -1pt, rate +1.5pt.
+    Bull : normalized FCF, growth +3pt (up to cap + 3pt), rate -1pt.
+    """
+    base = dcf(normalized, cash, debt, shares, growth, terminal, rate)
+    low = min(recent)
+    bear_start = (low if low > 0 else normalized * .5)
+    bear_fcf = min(bear_start, normalized) * .85
+    bear = dcf(bear_fcf, cash, debt, shares, max(-.05, growth - .05),
+               max(0.0, terminal - .01), rate + .015)
+    bull = dcf(normalized, cash, debt, shares, min(growth_cap + .03, growth + .03),
+               terminal, max(terminal + .02, rate - .01))
+    return bear, base, bull
+
+
 def quality_score(roe, de, fcf_values, revenue_values, earnings_values, cash_conversion):
     """V6 scoring unchanged; annual arrays newest first."""
     score = 0
@@ -235,6 +261,28 @@ def fcf_history_or_error(fcf_map):
     return valid
 
 
+def confidence_flags(growth, growth_cap, upside, recent):  # CHANGED
+    """Warning flags that should lower valuation confidence."""
+    flags = []
+    if growth >= growth_cap - 1e-9:
+        flags.append('growth capped')
+    if upside > 80:
+        flags.append('upside>80')
+    mean = float(np.mean(recent))
+    if abs(mean) > 0 and float(np.std(recent)) / abs(mean) > .4:
+        flags.append('FCF volatile')
+    return flags
+
+
+def adjust_confidence(confidence, flags):  # CHANGED
+    """High -> Medium on any flag; Low on 2+ flags."""
+    if len(flags) >= 2:
+        return 'Low'
+    if flags and confidence == 'High':
+        return 'Medium'
+    return confidence
+
+
 def evaluate(symbol, growth_cap=.10, rate=.10, terminal=.025, min_upside=20,
              min_quality=70, unused=1.0, sector='Unknown'):
     """V6-compatible positional arguments, return columns and technical signals."""
@@ -276,10 +324,8 @@ def evaluate(symbol, growth_cap=.10, rate=.10, terminal=.025, min_upside=20,
         growth = float(np.clip(observed, -.03, growth_cap))
     else:
         growth = min(.03, growth_cap)
-    bear = dcf(normalized, cash, debt, shares, max(-.05, growth - .05), terminal, rate + .01)
-    base = dcf(normalized, cash, debt, shares, growth, terminal, rate)
-    bull = dcf(normalized, cash, debt, shares, min(growth_cap + .05, growth + .05),
-               terminal, max(terminal + .005, rate - .01))
+    bear, base, bull = scenario_values(normalized, recent, cash, debt, shares,  # CHANGED
+                                       growth, growth_cap, terminal, rate)
     if base is None:
         raise ValueError('Non-positive/invalid Base Fair Value')
     roe = first(info.get('returnOnEquity'))
@@ -300,6 +346,8 @@ def evaluate(symbol, growth_cap=.10, rate=.10, terminal=.025, min_upside=20,
                     len([x for x in earnings if x is not None]) >= 3, conversion is not None])
     confidence = 'High' if evidence >= 6 else 'Medium' if evidence >= 4 else 'Low'
     upside = (base / price - 1) * 100
+    flags = confidence_flags(growth, growth_cap, upside, recent)  # CHANGED
+    confidence = adjust_confidence(confidence, flags)  # CHANGED
     eligible = bool(upside >= min_upside and score >= min_quality and confidence != 'Low')
     decision = ('พิจารณาจังหวะซื้อ' if eligible and tech['CDC Zone'] == 'Green'
                 and tech['Technical Score'] >= 4 and not tech['CDC Sell today']
@@ -313,4 +361,5 @@ def evaluate(symbol, growth_cap=.10, rate=.10, terminal=.025, min_upside=20,
             'Sector': sector, 'Model': 'FCF DCF (indicative)', 'Special Review': False,
             'ROE (%)': roe * 100 if roe is not None else None, 'D/E (x)': de,
             'FCF ($B)': normalized / 1e9, 'FCF years': len(recent),
-            'Growth (%)': growth * 100, 'Decision': decision, **tech}, d
+            'Growth (%)': growth * 100, 'Flags': ', '.join(flags),  # CHANGED
+            'Decision': decision, **tech}, d
