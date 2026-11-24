@@ -1,157 +1,157 @@
 Ticker,Sector,Status,Reason,Scanned UTC
-ACGL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:37:48.245458+00:00
-AEE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:00.367794+00:00
-AEP,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:00.868027+00:00
-AES,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:01.368263+00:00
-AFL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:01.868510+00:00
-AIG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:02.368739+00:00
-AIZ,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:02.868999+00:00
-AJG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:03.369227+00:00
-ALB,Materials,Error,Non-positive normalized FCF,2026-11-21T19:38:13.060988+00:00
-ALL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:15.476419+00:00
-AMP,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:29.574702+00:00
-AMT,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:30.074975+00:00
-AON,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:34.044563+00:00
-APD,Materials,Error,Non-positive normalized FCF,2026-11-21T19:38:45.488126+00:00
-APO,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:47.613681+00:00
-ARE,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:51.583713+00:00
-ARES,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:52.083946+00:00
-ATO,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:52.584203+00:00
-AWK,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:56.654621+00:00
-AXP,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:38:58.807446+00:00
-BAC,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:39:06.566313+00:00
-BE,Industrials,Error,Non-positive normalized FCF,2026-11-21T19:39:23.545385+00:00
-BEN,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:39:24.045626+00:00
-BG,Consumer Staples,Error,Non-positive normalized FCF,2026-11-21T19:39:34.371904+00:00
-BLK,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:39:41.159922+00:00
-BNY,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:39:43.883044+00:00
-BRK-B,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:39:46.681269+00:00
-BRO,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:39:47.181516+00:00
-BX,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:39:49.749688+00:00
-BXP,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:39:50.249916+00:00
-C,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:39:50.750214+00:00
-CB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:40:03.173273+00:00
-CBOE,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:40:03.673500+00:00
-CBRE,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:40:04.173720+00:00
-CCI,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:40:04.673934+00:00
-CEG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:40:11.828238+00:00
-CFG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:40:14.471666+00:00
-CINF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:40:26.047118+00:00
-CME,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:40:33.504188+00:00
-CMS,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:40:38.249703+00:00
-CNP,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:40:43.466126+00:00
-COF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:40:43.966408+00:00
-COIN,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:40:46.230599+00:00
-CPAY,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:40:54.196611+00:00
-CPT,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:40:56.509760+00:00
-CSGP,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:41:06.170784+00:00
-D,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:41:17.963446+00:00
-DLR,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:41:42.532450+00:00
-DOC,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:41:44.581418+00:00
-DTE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:41:52.281793+00:00
-DUK,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:41:52.782088+00:00
-ECHO,Communication Services,Error,Non-positive normalized FCF,2026-11-21T19:42:10.618523+00:00
-ED,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:42:13.450092+00:00
-EG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:42:16.089478+00:00
-EIX,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:42:16.589796+00:00
-EQIX,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:42:28.595663+00:00
-ERIE,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:42:31.485350+00:00
-ES,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:42:31.985576+00:00
-ESS,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:42:32.485782+00:00
-ETR,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:42:35.272151+00:00
-EVRG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:42:35.772411+00:00
-EXC,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:42:38.393215+00:00
-EXR,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:42:45.754033+00:00
-FDS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:42:58.043570+00:00
-FDXF,Industrials,Error,Insufficient daily price history,2026-11-21T19:43:07.102912+00:00
-FE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:43:07.603173+00:00
-FIS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:43:14.568104+00:00
-FISV,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:43:15.068430+00:00
-FITB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:43:15.568719+00:00
-FRT,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:43:24.387552+00:00
-FSLR,Information Technology,Error,Non-positive normalized FCF,2026-11-21T19:43:32.742620+00:00
-GL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:43:58.680306+00:00
-GM,Consumer Discretionary,Error,Non-positive normalized FCF,2026-11-21T19:44:09.449486+00:00
-GPN,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:44:18.472760+00:00
-GS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:44:21.070228+00:00
-HBAN,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:44:28.314493+00:00
-HIG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:44:33.527290+00:00
-HONA,Industrials,Error,Insufficient daily price history,2026-11-21T19:44:50.424941+00:00
-HOOD,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:44:50.925209+00:00
-HST,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:45:00.627295+00:00
-IBKR,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:45:10.573463+00:00
-ICE,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:45:13.479819+00:00
-INTC,Information Technology,Error,Non-positive normalized FCF,2026-11-21T19:45:33.149381+00:00
-INVH,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:45:35.915441+00:00
-IRM,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:45:46.129352+00:00
-IVZ,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:45:53.502521+00:00
-JKHY,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:46:03.032607+00:00
-JPM,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:46:05.902901+00:00
-KEY,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:46:08.456052+00:00
-KIM,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:46:13.403801+00:00
-KKR,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:46:13.904035+00:00
-L,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:46:25.752010+00:00
-LITE,Information Technology,Error,Non-positive normalized FCF,2026-11-21T19:46:50.488535+00:00
-LNT,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:46:55.298111+00:00
-LUV,Industrials,Error,Non-positive normalized FCF,2026-11-21T19:47:09.758410+00:00
-MA,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:47:16.771403+00:00
-MAA,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:47:17.271715+00:00
-MCO,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:47:28.932916+00:00
-MET,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:47:36.800864+00:00
-MRNA,Health Care,Error,Non-positive normalized FCF,2026-11-21T19:48:10.235136+00:00
-MRSH,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:48:10.735405+00:00
-MS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:48:13.461289+00:00
-MSCI,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:48:13.961505+00:00
-MTB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:48:19.175152+00:00
-NCLH,Consumer Discretionary,Error,Non-positive normalized FCF,2026-11-21T19:48:31.508733+00:00
-NDAQ,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:48:32.008992+00:00
-NEE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:48:37.262601+00:00
-NI,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:48:41.422128+00:00
-NRG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:48:47.451286+00:00
-NTRS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:48:51.567309+00:00
-O,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:49:02.731022+00:00
-PCG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:49:30.767684+00:00
-PEG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:49:31.267932+00:00
-PFG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:49:35.800041+00:00
-PGR,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:49:38.326422+00:00
-PLD,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:49:44.938722+00:00
-PNC,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:49:49.201657+00:00
-PNW,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:49:51.689395+00:00
-PPL,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:49:58.927251+00:00
-PRU,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:49:59.427491+00:00
-PSA,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:49:59.927779+00:00
-PYPL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:50:05.560519+00:00
-REG,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:50:12.924226+00:00
-RF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:50:15.148788+00:00
-RJF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:50:15.649087+00:00
-SBAC,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:50:32.492904+00:00
-SCHW,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:50:38.232868+00:00
-SKYD,Communication Services,Error,Stale annual FCF statements,2026-11-21T19:50:50.603945+00:00
-SMCI,Information Technology,Error,Non-positive normalized FCF,2026-11-21T19:51:01.172115+00:00
-SNDK,Information Technology,Error,Non-positive normalized FCF,2026-11-21T19:51:11.611642+00:00
-SO,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:51:14.131245+00:00
-SPG,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:51:16.702323+00:00
-SPGI,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:51:17.202625+00:00
-SRE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:51:17.702836+00:00
-STT,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:51:22.441004+00:00
-SYF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:51:33.529072+00:00
-TFC,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:51:50.642521+00:00
-TROW,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:52:06.777979+00:00
-TRV,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:52:07.278182+00:00
-TTWO,Communication Services,Error,Non-positive normalized FCF,2026-11-21T19:52:22.001276+00:00
-UDR,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:52:38.203312+00:00
-USB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:52:51.956556+00:00
-V,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:52:52.456857+00:00
-VICI,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:52:55.248712+00:00
-VMRK,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:53:02.145380+00:00
-VST,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:53:11.162447+00:00
-VTR,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:53:14.535513+00:00
-VYLR,Consumer Staples,Error,Insufficient daily price history,2026-11-21T19:53:23.803711+00:00
-WEC,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:53:35.344697+00:00
-WELL,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:53:35.844961+00:00
-WFC,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:53:36.345265+00:00
-WRB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:53:43.888984+00:00
-WTW,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:53:48.764814+00:00
-WY,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:53:49.265118+00:00
-XEL,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:53:52.172898+00:00
-XYZ,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-21T19:53:57.338774+00:00
+ACGL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:40:25.383886+00:00
+AEE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:40:37.752928+00:00
+AEP,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:40:38.253141+00:00
+AES,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:40:38.753415+00:00
+AFL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:40:39.253683+00:00
+AIG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:40:39.754047+00:00
+AIZ,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:40:40.254261+00:00
+AJG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:40:40.754489+00:00
+ALB,Materials,Error,Non-positive normalized FCF,2026-11-24T22:40:50.701434+00:00
+ALL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:40:53.126835+00:00
+AMP,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:41:08.856448+00:00
+AMT,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:41:09.356685+00:00
+AON,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:41:14.091820+00:00
+APD,Materials,Error,Non-positive normalized FCF,2026-11-24T22:41:26.195002+00:00
+APO,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:41:28.651771+00:00
+ARE,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:41:33.040964+00:00
+ARES,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:41:33.541420+00:00
+ATO,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:41:34.041708+00:00
+AWK,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:41:38.260270+00:00
+AXP,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:41:40.796273+00:00
+BAC,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:41:48.474145+00:00
+BE,Industrials,Error,Non-positive normalized FCF,2026-11-24T22:42:04.490467+00:00
+BEN,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:42:04.990713+00:00
+BG,Consumer Staples,Error,Non-positive normalized FCF,2026-11-24T22:42:14.812301+00:00
+BLK,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:42:21.067603+00:00
+BNY,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:42:23.548765+00:00
+BRK-B,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:42:25.947307+00:00
+BRO,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:42:26.447584+00:00
+BX,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:42:28.701310+00:00
+BXP,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:42:29.201555+00:00
+C,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:42:29.701834+00:00
+CB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:42:41.403486+00:00
+CBOE,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:42:41.903748+00:00
+CBRE,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:42:42.403971+00:00
+CCI,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:42:42.904213+00:00
+CEG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:42:49.365345+00:00
+CFG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:42:51.950766+00:00
+CINF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:43:03.154771+00:00
+CME,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:43:09.798939+00:00
+CMS,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:43:14.549137+00:00
+CNP,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:43:20.072824+00:00
+COF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:43:20.573078+00:00
+COIN,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:43:23.070934+00:00
+CPAY,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:43:31.506925+00:00
+CPT,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:43:34.009858+00:00
+CSGP,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:43:44.033019+00:00
+D,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:43:56.472304+00:00
+DLR,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:44:24.130757+00:00
+DOC,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:44:26.654544+00:00
+DTE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:44:35.209479+00:00
+DUK,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:44:35.709724+00:00
+ECHO,Communication Services,Error,Non-positive normalized FCF,2026-11-24T22:44:54.608082+00:00
+ED,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:44:57.191616+00:00
+EG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:44:59.684369+00:00
+EIX,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:45:00.185110+00:00
+EQIX,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:45:10.610709+00:00
+ERIE,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:45:13.092551+00:00
+ES,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:45:13.592805+00:00
+ESS,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:45:14.093084+00:00
+ETR,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:45:16.530304+00:00
+EVRG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:45:17.030528+00:00
+EXC,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:45:19.465418+00:00
+EXR,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:45:26.241654+00:00
+FDS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:45:37.596890+00:00
+FDXF,Industrials,Error,Insufficient daily price history,2026-11-24T22:45:46.427362+00:00
+FE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:45:46.927617+00:00
+FIS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:45:53.179242+00:00
+FISV,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:45:53.679501+00:00
+FITB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:45:54.179739+00:00
+FRT,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:46:02.434018+00:00
+FSLR,Information Technology,Error,Non-positive normalized FCF,2026-11-24T22:46:10.246043+00:00
+GL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:46:33.590275+00:00
+GM,Consumer Discretionary,Error,Non-positive normalized FCF,2026-11-24T22:46:43.614610+00:00
+GPN,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:46:52.165938+00:00
+GS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:46:54.762713+00:00
+HBAN,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:47:01.662203+00:00
+HIG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:47:06.062991+00:00
+HONA,Industrials,Error,Insufficient daily price history,2026-11-24T22:47:21.975592+00:00
+HOOD,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:47:22.475832+00:00
+HST,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:47:31.070565+00:00
+IBKR,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:47:40.053525+00:00
+ICE,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:47:42.637231+00:00
+INTC,Information Technology,Error,Non-positive normalized FCF,2026-11-24T22:48:00.560597+00:00
+INVH,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:48:03.285888+00:00
+IRM,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:48:12.669953+00:00
+IVZ,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:48:19.333717+00:00
+JKHY,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:48:27.903639+00:00
+JPM,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:48:30.632858+00:00
+KEY,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:48:33.083686+00:00
+KIM,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:48:37.278928+00:00
+KKR,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:48:37.779184+00:00
+L,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:48:48.543262+00:00
+LITE,Information Technology,Error,Non-positive normalized FCF,2026-11-24T22:49:11.971919+00:00
+LNT,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:49:16.605327+00:00
+LUV,Industrials,Error,Non-positive normalized FCF,2026-11-24T22:49:30.785645+00:00
+MA,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:49:37.220815+00:00
+MAA,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:49:37.721042+00:00
+MCO,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:49:48.157223+00:00
+MET,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:49:55.921902+00:00
+MRNA,Health Care,Error,Non-positive normalized FCF,2026-11-24T22:50:26.154466+00:00
+MRSH,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:50:26.654742+00:00
+MS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:50:28.992367+00:00
+MSCI,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:50:29.492675+00:00
+MTB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:50:33.940026+00:00
+NCLH,Consumer Discretionary,Error,Non-positive normalized FCF,2026-11-24T22:50:45.771545+00:00
+NDAQ,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:50:46.271781+00:00
+NEE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:50:52.033374+00:00
+NI,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:50:56.617845+00:00
+NRG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:51:02.789309+00:00
+NTRS,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:51:07.175722+00:00
+O,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:51:19.891201+00:00
+PCG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:51:49.216565+00:00
+PEG,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:51:49.716790+00:00
+PFG,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:51:54.535328+00:00
+PGR,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:51:57.176237+00:00
+PLD,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:52:03.727592+00:00
+PNC,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:52:08.399728+00:00
+PNW,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:52:10.834133+00:00
+PPL,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:52:18.001224+00:00
+PRU,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:52:18.501439+00:00
+PSA,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:52:19.001675+00:00
+PYPL,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:52:25.312950+00:00
+REG,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:52:34.190091+00:00
+RF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:52:36.612930+00:00
+RJF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:52:37.113374+00:00
+SBAC,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:52:56.193093+00:00
+SCHW,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:53:01.785746+00:00
+SKYD,Communication Services,Error,Stale annual FCF statements,2026-11-24T22:53:13.278196+00:00
+SMCI,Information Technology,Error,Non-positive normalized FCF,2026-11-24T22:53:23.182813+00:00
+SNDK,Information Technology,Error,Non-positive normalized FCF,2026-11-24T22:53:32.954181+00:00
+SO,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:53:35.298362+00:00
+SPG,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:53:37.527952+00:00
+SPGI,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:53:38.028224+00:00
+SRE,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:53:38.528485+00:00
+STT,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:53:42.474548+00:00
+SYF,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:53:52.274489+00:00
+TFC,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:54:11.484055+00:00
+TROW,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:54:29.813372+00:00
+TRV,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:54:30.313740+00:00
+TTWO,Communication Services,Error,Non-positive normalized FCF,2026-11-24T22:54:46.640515+00:00
+UDR,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:55:02.394767+00:00
+USB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:55:14.904685+00:00
+V,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:55:15.404920+00:00
+VICI,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:55:18.197807+00:00
+VMRK,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:55:25.017972+00:00
+VST,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:55:33.174663+00:00
+VTR,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:55:36.580168+00:00
+VYLR,Consumer Staples,Error,Insufficient daily price history,2026-11-24T22:55:45.578736+00:00
+WEC,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:55:56.273887+00:00
+WELL,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:55:56.774121+00:00
+WFC,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:55:57.274358+00:00
+WRB,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:56:04.264117+00:00
+WTW,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:56:08.659434+00:00
+WY,Real Estate,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:56:09.159655+00:00
+XEL,Utilities,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:56:11.477984+00:00
+XYZ,Financials,Special Review,Special Review: sector-specific valuation required,2026-11-24T22:56:16.118335+00:00
