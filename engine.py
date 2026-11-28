@@ -1,20 +1,13 @@
-"""US Stock Value Scanner V6 — FCF history maintenance fix.
-
+"""US Stock Value Scanner V6 — HA Open CDC maintenance.
 Indicative equity cash-flow proxy DCF, not full FCFE/FCFF.
-Public evaluate() signature and output columns remain V6-compatible
-(one extra output column added: 'Flags').
-
-Changes in this revision (marked with  # CHANGED):
-  1. Bear/Bull scenarios use different starting FCF / terminal growth / rate,
-     instead of only shifting growth and discount rate on the same FCF.
-  2. Valuation Confidence is downgraded when warning flags fire
-     (growth capped, upside > 80%, volatile FCF).
+Public evaluate signature and output columns remain V6-compatible.
 """
 import math
 import numpy as np
 import pandas as pd
 import streamlit as st
 import yfinance as yf
+from cdc_hybrid import heikin_ashi, cdc
 
 SPECIAL = {'Financials', 'Real Estate', 'Utilities'}
 
@@ -32,7 +25,6 @@ def first(*xs):
 
 
 def dated_values(frame, names):
-    """Read annual-statement rows by year-end date; never use quarterly data."""
     if frame is None or not isinstance(frame, pd.DataFrame) or frame.empty:
         return {}
     dates = pd.to_datetime(frame.columns, utc=True, errors='coerce')
@@ -75,7 +67,7 @@ def history(symbol):
     d = yf.Ticker(symbol).history(period='2y', auto_adjust=True)
     if d is None or d.empty:
         raise ValueError('Insufficient daily price history')
-    d = d[['Open', 'High', 'Low', 'Close', 'Volume']].dropna(subset=['Close']).copy()
+    d = d[['Open', 'High', 'Low', 'Close', 'Volume']].dropna(subset=['Open', 'High', 'Low', 'Close']).copy()
     if len(d) < 210:
         raise ValueError('Insufficient daily price history')
     return d
@@ -88,31 +80,17 @@ def indicators(hist):
     d['EMA26'] = c.ewm(span=26, adjust=False).mean()
     d['EMA50'] = c.ewm(span=50, adjust=False).mean()
     d['EMA200'] = c.ewm(span=200, adjust=False).mean()
-    bull, bear = d.EMA12 > d.EMA26, d.EMA12 < d.EMA26
-    green = bull & (c > d.EMA12)
-    blue = bear & (c > d.EMA12) & (c > d.EMA26)
-    aqua = bear & (c > d.EMA12) & (c < d.EMA26)
-    red = bear & (c < d.EMA12)
-    orange = bull & (c < d.EMA12) & (c < d.EMA26)
-    yellow = bull & (c < d.EMA12) & (c > d.EMA26)
-    d['CDC_zone'] = np.select([green, blue, aqua, red, orange, yellow],
-                              ['Green', 'Blue', 'Light Blue', 'Red', 'Orange', 'Yellow'], default='Neutral')
-    first_green = green & ~green.shift(1, fill_value=False)
-    first_red = red & ~red.shift(1, fill_value=False)
-    last_g = last_r = None
-    buys, sells, states = [], [], []
-    for i, (g, r) in enumerate(zip(first_green, first_red)):
-        previous = (1 if last_g is not None and (last_r is None or last_g > last_r)
-                    else -1 if last_r is not None and (last_g is None or last_r > last_g) else 0)
-        buys.append(bool(g and previous == -1))
-        sells.append(bool(r and previous == 1))
-        if g:
-            last_g = i
-        if r:
-            last_r = i
-        states.append(1 if last_g is not None and (last_r is None or last_g > last_r)
-                      else -1 if last_r is not None and (last_g is None or last_r > last_g) else 0)
-    d['CDC_buy'], d['CDC_sell'], d['CDC_trend'] = buys, sells, states
+    # CDC only: use the validated research module with HA Open.
+    ha = heikin_ashi(d)
+    signals = cdc(ha, source='Open')
+    d['HA_Open'] = ha['Open']
+    d['HA_Close'] = ha['Close']
+    d['CDC_EMA12'] = ha['Open'].ewm(span=12, adjust=False).mean()
+    d['CDC_EMA26'] = ha['Open'].ewm(span=26, adjust=False).mean()
+    d['CDC_zone'] = signals['zone']
+    d['CDC_buy'] = signals['buy']
+    d['CDC_sell'] = signals['sell']
+    d['CDC_trend'] = signals['trend']
     change = c.diff()
     gain = change.clip(lower=0).ewm(alpha=1 / 14, adjust=False).mean()
     loss = (-change.clip(upper=0)).ewm(alpha=1 / 14, adjust=False).mean()
@@ -147,7 +125,6 @@ def technical(d):
 
 
 def dcf(fcf, cash, debt, shares, growth, terminal, rate):
-    """Five-year equity FCF proxy DCF; cash/debt API args not added/subtracted."""
     vals = [num(x) for x in (fcf, shares, growth, terminal, rate)]
     if any(x is None for x in vals):
         return None
@@ -166,14 +143,7 @@ def dcf(fcf, cash, debt, shares, growth, terminal, rate):
     return value if math.isfinite(value) and value > 0 else None
 
 
-def scenario_values(normalized, recent, cash, debt, shares, growth, growth_cap, terminal, rate):  # CHANGED
-    """Bear / Base / Bull fair values.
-
-    Base : normalized FCF, observed growth (capped), rate, terminal.
-    Bear : weaker starting FCF (lowest recent year, or half of normalized if that
-           year was <= 0, then x0.85), growth -5pt, terminal -1pt, rate +1.5pt.
-    Bull : normalized FCF, growth +3pt (up to cap + 3pt), rate -1pt.
-    """
+def scenario_values(normalized, recent, cash, debt, shares, growth, growth_cap, terminal, rate):
     base = dcf(normalized, cash, debt, shares, growth, terminal, rate)
     low = min(recent)
     bear_start = (low if low > 0 else normalized * .5)
@@ -186,7 +156,6 @@ def scenario_values(normalized, recent, cash, debt, shares, growth, growth_cap, 
 
 
 def quality_score(roe, de, fcf_values, revenue_values, earnings_values, cash_conversion):
-    """V6 scoring unchanged; annual arrays newest first."""
     score = 0
     if roe is not None:
         score += 15 if roe >= .20 else 10 if roe >= .12 else 5 if roe > 0 else 0
@@ -206,11 +175,6 @@ def quality_score(roe, de, fcf_values, revenue_values, earnings_values, cash_con
 
 
 def annual_series(values, count=5):
-    """Latest contiguous fiscal-year observations, including missing values.
-
-    Preserve the first missing year as a boundary, but do not require five years.
-    A 330–400-day interval accommodates leap years and fiscal date shifts.
-    """
     pairs = sorted(((pd.Timestamp(k), num(v)) for k, v in values.items() if k != 'fallback'), reverse=True)
     if not pairs:
         return []
@@ -226,7 +190,6 @@ def annual_series(values, count=5):
 
 
 def annual_fcf_map(cf):
-    """Fill missing direct FCF with CFO minus absolute capex for the same year."""
     direct = dated_values(cf, ['Free Cash Flow', 'FreeCashFlow'])
     operating = dated_values(cf, ['Operating Cash Flow', 'Cash Flow From Continuing Operating Activities'])
     capex = dated_values(cf, ['Capital Expenditure', 'Capital Expenditures'])
@@ -238,12 +201,6 @@ def annual_fcf_map(cf):
 
 
 def fcf_history_or_error(fcf_map):
-    """Require >=3 latest contiguous valid years; older missing years are allowed.
-
-    Never skip an internal missing year or a missing latest year, which would
-    silently use stale/nonconsecutive data. Zero and negative values are valid
-    observations and remain subject to normalized FCF validation downstream.
-    """
     if not fcf_map:
         raise ValueError('Missing annual FCF (direct and CFO/capex unavailable)')
     series = annual_series(fcf_map)
@@ -261,8 +218,7 @@ def fcf_history_or_error(fcf_map):
     return valid
 
 
-def confidence_flags(growth, growth_cap, upside, recent):  # CHANGED
-    """Warning flags that should lower valuation confidence."""
+def confidence_flags(growth, growth_cap, upside, recent):
     flags = []
     if growth >= growth_cap - 1e-9:
         flags.append('growth capped')
@@ -274,8 +230,7 @@ def confidence_flags(growth, growth_cap, upside, recent):  # CHANGED
     return flags
 
 
-def adjust_confidence(confidence, flags):  # CHANGED
-    """High -> Medium on any flag; Low on 2+ flags."""
+def adjust_confidence(confidence, flags):
     if len(flags) >= 2:
         return 'Low'
     if flags and confidence == 'High':
@@ -285,7 +240,6 @@ def adjust_confidence(confidence, flags):  # CHANGED
 
 def evaluate(symbol, growth_cap=.10, rate=.10, terminal=.025, min_upside=20,
              min_quality=70, unused=1.0, sector='Unknown'):
-    """V6-compatible positional arguments, return columns and technical signals."""
     if sector in SPECIAL:
         raise ValueError('Special Review: sector-specific valuation required')
     if any(num(x) is None for x in (growth_cap, rate, terminal, min_upside, min_quality)):
@@ -324,7 +278,7 @@ def evaluate(symbol, growth_cap=.10, rate=.10, terminal=.025, min_upside=20,
         growth = float(np.clip(observed, -.03, growth_cap))
     else:
         growth = min(.03, growth_cap)
-    bear, base, bull = scenario_values(normalized, recent, cash, debt, shares,  # CHANGED
+    bear, base, bull = scenario_values(normalized, recent, cash, debt, shares,
                                        growth, growth_cap, terminal, rate)
     if base is None:
         raise ValueError('Non-positive/invalid Base Fair Value')
@@ -346,8 +300,8 @@ def evaluate(symbol, growth_cap=.10, rate=.10, terminal=.025, min_upside=20,
                     len([x for x in earnings if x is not None]) >= 3, conversion is not None])
     confidence = 'High' if evidence >= 6 else 'Medium' if evidence >= 4 else 'Low'
     upside = (base / price - 1) * 100
-    flags = confidence_flags(growth, growth_cap, upside, recent)  # CHANGED
-    confidence = adjust_confidence(confidence, flags)  # CHANGED
+    flags = confidence_flags(growth, growth_cap, upside, recent)
+    confidence = adjust_confidence(confidence, flags)
     eligible = bool(upside >= min_upside and score >= min_quality and confidence != 'Low')
     decision = ('พิจารณาจังหวะซื้อ' if eligible and tech['CDC Zone'] == 'Green'
                 and tech['Technical Score'] >= 4 and not tech['CDC Sell today']
@@ -361,5 +315,5 @@ def evaluate(symbol, growth_cap=.10, rate=.10, terminal=.025, min_upside=20,
             'Sector': sector, 'Model': 'FCF DCF (indicative)', 'Special Review': False,
             'ROE (%)': roe * 100 if roe is not None else None, 'D/E (x)': de,
             'FCF ($B)': normalized / 1e9, 'FCF years': len(recent),
-            'Growth (%)': growth * 100, 'Flags': ', '.join(flags),  # CHANGED
+            'Growth (%)': growth * 100, 'Flags': ', '.join(flags),
             'Decision': decision, **tech}, d
