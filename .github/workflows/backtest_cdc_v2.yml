@@ -1,0 +1,35 @@
+name: CDC Backtest Round 2
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install pandas numpy yfinance requests lxml
+      - name: Load current S&P 500 universe
+        run: |
+          python - <<'PY'
+          import pandas as pd, requests, io
+          r=requests.get('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies',headers={'User-Agent':'CDCResearch/1.0 (technical research)'},timeout=60)
+          r.raise_for_status()
+          df=next(t for t in pd.read_html(io.StringIO(r.text)) if 'Symbol' in t.columns)
+          assert 490 <= len(df) <= 510, 'Unexpected universe size'
+          df[['Symbol']].to_csv('cdc_v2_universe.csv',index=False)
+          PY
+      - name: Run backtest
+        run: python backtest_cdc_v2.py --universe cdc_v2_universe.csv --cost-bps 10
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cdc-backtest-round2
+          path: cdc_v2_*.csv
+          if-no-files-found: error
