@@ -1,0 +1,60 @@
+name: CDC HA Open Validation
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pandas numpy yfinance
+
+      - name: Validate CDC
+        run: |
+          python - <<'PY'
+          import yfinance as yf
+          from cdc_hybrid import heikin_ashi, cdc
+
+          tickers = [
+              'ACN', 'ADBE', 'DECK', 'VZ',
+              'INTU', 'AOS', 'PHM'
+          ]
+
+          for ticker in tickers:
+              h = yf.Ticker(ticker).history(
+                  period='2y',
+                  end='2026-11-28',
+                  auto_adjust=True
+              ).dropna(
+                  subset=['Open','High','Low','Close']
+              )
+
+              if len(h) < 210:
+                  raise ValueError(ticker + ': insufficient data')
+
+              ha = heikin_ashi(h)
+              d = cdc(ha, source='Open')
+
+              d['HA Open'] = ha['Open']
+              d['HA Close'] = ha['Close']
+              d['EMA12'] = ha.Open.ewm(
+                  span=12, adjust=False
+              ).mean()
+              d['EMA26'] = ha.Open.ewm(
+                  span=26, adjust=False
+              ).mean()
+
+              print('\n' + '=' * 60)
+              print(ticker)
+              print(d.tail(10).to_string())
+          PY
