@@ -1,0 +1,35 @@
+name: CDC Hybrid Backtest
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pandas numpy yfinance
+
+      - name: Run CDC Backtest
+        run: |
+          python backtest_cdc.py ACN ADBE DECK VZ INTU AOS PHM --cost-bps 10
+
+      - name: Upload backtest results
+        uses: actions/upload-artifact@v4
+        with:
+          name: cdc-backtest-results
+          path: cdc_backtest_results.csv
+          if-no-files-found: error
